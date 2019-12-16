@@ -20,7 +20,7 @@
 project = 'Foundations-of-Scientific-Computing'
 copyright = '2019, David Pawlowski'
 author = 'David Pawlowski'
-
+master_doc = 'index'
 # The full version, including alpha/beta/rc tags
 release = '0.1'
 
