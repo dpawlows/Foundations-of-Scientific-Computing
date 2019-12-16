@@ -1,7 +1,7 @@
    Welcome to Phy280!
    ==================
 
-   The Foundations of Scientific Computing is meant to introduce you to some basic concepts of scientific computing using a couple different computational tools that are widely available and used extensively in the science and engineering disciplines: Microsoft Excel and the Python programming language.  I expect that you have some experience with at least Excel and possibly Python.  If this is the case, then great!  If not, that is fine too.  The material covered in this course will be useful to you regardless of your skill level with these tools.
+   The Foundations of Scientific Computing course is meant to introduce you to some basic concepts of scientific computing using a couple different computational tools that are widely available and used extensively in the science and engineering disciplines: Microsoft Excel and the Python programming language.  I expect that you have some experience with at least Excel and possibly Python.  If this is the case, then great!  If not, that is fine too.  The material covered in this course will be useful to you regardless of your skill level with these tools.
 
    Each lesson will be delivered in a tutorial format so that you can follow along at the pace that best suits you. Then,
    each lesson will be accompanied by an exercise set so
