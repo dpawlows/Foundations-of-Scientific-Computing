@@ -39,6 +39,23 @@ to change*
   :caption: Contents:
 
 
+.. toctree::
+    :maxdepth: 2
+    :caption: Course information
+
+    course-info/course-info
+    course-info/installingPython
+    course-info/learningObjectives
+    course-info/grading
+    course-info/vocabulary
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Lesson 1
+
+    lessons/L1/overview
+    lessons/L1/anaconda-intro
+    
 
 Indices and tables
 ==================

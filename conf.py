@@ -23,7 +23,7 @@ author = 'David Pawlowski'
 master_doc = 'index'
 # The full version, including alpha/beta/rc tags
 release = '0.1'
-
+html_logo = 'images/elogo1.png'
 
 # -- General configuration ---------------------------------------------------
 
@@ -39,8 +39,11 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
+
+#globaltoc makes it so sidebar doesn't change depending on page
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -49,7 +52,21 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #
 html_theme = 'sphinx_rtd_theme'
 
+html_theme_options = {
+    "collapse_navigation" : False
+}
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+html_context = {
+    # Enable the "Edit in GitHub link within the header of each page.
+    'display_github': True,
+    # Set the following variables to generate the resulting github URL for each page.
+    # Format Template: https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}
+    'github_user': 'dpawlows',
+    'github_repo': 'site',
+    'github_version': 'master/',
+    'conf_py_path': '/source/'
+}
