@@ -10,9 +10,9 @@ environment and how to use the tools built in to the
 integrated development environment (IDE).
 
 The main components of the first lesson are below.
-1.
+1. 
 2.
-3. 
+3.
 
 Learning Goals
 --------------

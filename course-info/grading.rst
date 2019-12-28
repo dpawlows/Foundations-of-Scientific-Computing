@@ -10,10 +10,10 @@ Grades for assignments will be issued on a modified
 * 5 (Excellent; A)
 * 4 (Good; B)
 * 3 (Satisfactory; C)
-* 2 (Passable; D)
+* 2 (Acceptable; D)
 * 0 (Fail; F 0%)
 
-The equivalent letter grades are shown.
+Equivalent letter grades are shown for reference.
 
 .. note:: Deadlines for each of the exercises will be
           provided each week and are firm. If you anticipate that you

@@ -55,7 +55,8 @@ to change*
 
     lessons/L1/overview
     lessons/L1/anaconda-intro
-    
+    lessons/L1/first
+
 
 Indices and tables
 ==================

@@ -25,6 +25,7 @@
         <script type="text/javascript" src="../../_static/underscore.js"></script>
         <script type="text/javascript" src="../../_static/doctools.js"></script>
         <script type="text/javascript" src="../../_static/language_data.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     
     <script type="text/javascript" src="../../_static/js/theme.js"></script>
 
@@ -91,6 +92,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../course-info/installingPython.html">Installing Python</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../course-info/installingPython.html#install-python-on-windows">Install Python on Windows</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../course-info/installingPython.html#install-python-on-macos">Install Python on macOS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../course-info/installingPython.html#updating">Updating</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../course-info/learningObjectives.html">Learning Objectives</a></li>
@@ -106,6 +108,20 @@
 <li class="toctree-l2"><a class="reference internal" href="../L1/overview.html#learning-goals">Learning Goals</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="../L1/anaconda-intro.html">Anaconda basics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../L1/anaconda-intro.html#the-navigator">The Navigator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../L1/anaconda-intro.html#spyder">Spyder</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../L1/anaconda-intro.html#the-toolbar">The toolbar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../L1/anaconda-intro.html#editor">Editor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../L1/anaconda-intro.html#console">Console</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../L1/anaconda-intro.html#command-line">Command line</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../L1/anaconda-intro.html#tying-it-all-together">Tying it all together</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../L1/anaconda-intro.html#current-working-directory">Current working directory</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../L1/first.html">A first program</a></li>
 </ul>
 
             
@@ -172,7 +188,31 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="lesson-overview">
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast.container,
+.nboutput.nblast.container {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast.container + .nbinput.container {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="section" id="lesson-overview">
 <h1>Lesson Overview<a class="headerlink" href="#lesson-overview" title="Permalink to this headline">¶</a></h1>
 </div>
 

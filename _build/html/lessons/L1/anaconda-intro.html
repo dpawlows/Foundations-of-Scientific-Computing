@@ -25,6 +25,7 @@
         <script type="text/javascript" src="../../_static/underscore.js"></script>
         <script type="text/javascript" src="../../_static/doctools.js"></script>
         <script type="text/javascript" src="../../_static/language_data.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     
     <script type="text/javascript" src="../../_static/js/theme.js"></script>
 
@@ -35,6 +36,7 @@
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="A first program" href="first.html" />
     <link rel="prev" title="Lesson Overview" href="overview.html" /> 
 </head>
 
@@ -109,10 +111,19 @@
 </ul>
 </li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Anaconda basics</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#the-ide">The IDE</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#spyder">Spyder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#the-navigator">The Navigator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#spyder">Spyder</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#the-toolbar">The toolbar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#editor">Editor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#console">Console</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#command-line">Command line</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tying-it-all-together">Tying it all together</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#current-working-directory">Current working directory</a></li>
 </ul>
 </li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="first.html">A first program</a></li>
 </ul>
 
             
@@ -179,10 +190,34 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="anaconda-basics">
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast.container,
+.nboutput.nblast.container {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast.container + .nbinput.container {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="section" id="anaconda-basics">
 <h1>Anaconda basics<a class="headerlink" href="#anaconda-basics" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="the-ide">
-<h2>The IDE<a class="headerlink" href="#the-ide" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="the-navigator">
+<h2>The Navigator<a class="headerlink" href="#the-navigator" title="Permalink to this headline">¶</a></h2>
 <p>The Anaconda package that you installed comes with
 several different tools to help you be an efficient
 programmer. To get started, launch Anaconda Navigator
@@ -193,21 +228,159 @@ something like the image below:</p>
 <a class="reference internal image-reference" href="../../_images/navigator.png"><img alt="navigator startup screen" src="../../_images/navigator.png" style="width: 600px;" /></a>
 <p class="caption"><span class="caption-text">Anaconda Navigator startup screen</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<p>Where you can choose which tool to work with. JupyterLab
+<p>where you can choose which tool to work with. JupyterLab
 and Jupyter Notebooks are web based tools for
 integrating Python code with human readable text and
-graphics. These are extremely useful tools for sharing
-analyses quickly, but we won’t be using them here. If you
-are interested, you can learn more about these tools at
-<a class="reference external" href="https://jupyter.org/">https://jupyter.org/</a>.</p>
+graphics. We will use these tools in Lesson 2. In this
+lesson, we are going to start with an introduction to Spyder.</p>
 </div>
 <div class="section" id="spyder">
 <h2>Spyder<a class="headerlink" href="#spyder" title="Permalink to this headline">¶</a></h2>
-<p>In this course, we will be using the Spyder IDE, so launch
-Spyder to get started. Note that you can quickly launch
+<p>If you haven’t already, launch Spyder to get started.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can quickly launch
 Spyder by typing <code class="docutils literal notranslate"><span class="pre">spyder</span></code> in the Command Prompt (windows)
 or Terminal (Mac).</p>
-<p>Updating…</p>
+</div>
+<p>Once Spyder is up and running, you should have a window that looks similar
+to this:</p>
+<div class="figure align-center" id="id2">
+<a class="reference internal image-reference" href="../../_images/spyder.png"><img alt="spyder IDE" src="../../_images/spyder.png" style="width: 600px;" /></a>
+<p class="caption"><span class="caption-text">Spyder IDE</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<p>The IDE is made up of a toolbar and 3 main sub windows:
+the editor, console, and command line.</p>
+<div class="section" id="the-toolbar">
+<h3>The toolbar<a class="headerlink" href="#the-toolbar" title="Permalink to this headline">¶</a></h3>
+<p>Provides quick access to standard computer application tools used
+such as creating new files, opening and saving files.  Other tools
+are for running and interacting with code
+(e.g. the big play button runs the file that
+is currently loaded in the editor).</p>
+</div>
+<div class="section" id="editor">
+<h3>Editor<a class="headerlink" href="#editor" title="Permalink to this headline">¶</a></h3>
+<p>A basic text editor for creating and editing
+python code.</p>
+</div>
+<div class="section" id="console">
+<h3>Console<a class="headerlink" href="#console" title="Permalink to this headline">¶</a></h3>
+<p>Subwindow that helps to understand what your
+program is doing, including things like
+showing you which variables have been defined
+and what they are defined as,
+displaying plots, and files in your current working
+directory</p>
+</div>
+<div class="section" id="command-line">
+<h3>Command line<a class="headerlink" href="#command-line" title="Permalink to this headline">¶</a></h3>
+<p>Area for entering commands, seeing program
+output, and interacting with your code.
+It is also possible to run your code
+from the command line. The spyder command line interprets
+python code, which means that, generally, anything that you could
+enter into a file as part of a larger program can also
+be entered in the command line. This is great for testing
+code that you want to include in a main program.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>I’m being a bit pedantic here and deliberately saying
+“spyder” when referring to the
+“spyder” command line. This is to make it very clear that this
+is a python tool and the commands that can be used must be
+proper python as opposed to other kinds of commands (e.g. Linux, DOS).</p>
+</div>
+<p>A side effect of all this is you can use the spyder command line
+as a calculator to do some quick calculations. For example, type</p>
+<p><code class="docutils literal notranslate"><span class="pre">print(24*60*60)</span></code></p>
+<p>and in the command line and press enter to remind yourself
+about the number of seconds in day.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The Spyder IDE isn’t the only Python
+IDE available. However, most IDEs have a
+similar layout and options. So if you
+learn one, you will be able to work in
+other environments.</p>
+</div>
+</div>
+<div class="section" id="tying-it-all-together">
+<h3>Tying it all together<a class="headerlink" href="#tying-it-all-together" title="Permalink to this headline">¶</a></h3>
+<p>Spyder is a development environment that
+is meant to make writing, editing, debugging,
+and running python code as easy as possible.
+In reality, it isn’t necessary to use Spyder
+to do any of these things. Instead, one can
+write and edit code in any text editor (e.g.
+Atom, which is what I use, or Notepad/Textedit (not
+recommended)), then run the code from the
+Windows Command Prompt or Mac Terminal.
+In fact when you use Spyder, it is really
+just acting like a wrapper to put all of
+this functionality in one place.</p>
+<p>To that end, there is some basic computer
+operations stuff that you need to understand
+to use these tools effectively.
+One of those things is the concept of
+the filesystem and the directory structure
+on your computer. When you write some code
+in the Spyder editor, that code gets
+put in a file on your hard drive.
+So, when you “run” that file, your computer
+has to know where to find it. There are
+a few different ways to get your computer
+this information, but the easiest is to make
+sure that you are working in the same directory
+as the file.</p>
+</div>
+<div class="section" id="current-working-directory">
+<h3>Current working directory<a class="headerlink" href="#current-working-directory" title="Permalink to this headline">¶</a></h3>
+<p>This is called setting the current working directory,
+or cwd for short. When you started Spyder for the
+first time, Spyder provided you with a
+file in the editor so that you could start
+writing code immediately. It called that
+file temp.py and stored it in a certain
+directory in your filesystem. You can
+tell which directory that is by looking just
+below the toolbar.
+The line that starts with the slash () is
+tells us the file path, or just <strong>path</strong> for short.
+The path tells me the directory that the
+file is in as well as the name of the file itself.
+So, in this example, the file, temp.py, is in the
+directory
+/Users/dpawlows/.spyder-py3/ on my filesystem.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../../_images/tempdirectory.png"><img alt="file path" src="../../_images/tempdirectory.png" style="width: 400px;" /></a>
+</div>
+<p>Note that the path is system dependent. I work
+on a Mac so it will look different if you
+work on a Windows computer. Also, dpawlows
+is my username on my computer. So, that will
+different no matter what.</p>
+<p>If I want to run this file, I should
+make sure that I am working in that directory.
+How do I know what directory I am currently
+working in? On the right side of the toolbar
+there is a dropdown dialog with a directory path
+in it.</p>
+<div class="figure align-center" id="id3">
+<a class="reference internal image-reference" href="../../_images/cwd.png"><img alt="current working directory" src="../../_images/cwd.png" style="width: 300px;" /></a>
+<p class="caption"><span class="caption-text">The current working directory (cwd)</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<p>The currently displayed directory is the
+cwd. Note that you can change the cwd by
+selecting a recently used folder from the
+dropdown or selecting any folder in your
+file system by pressing the
+black folder icon next to the cwd dropdown.
+You will need to change the cwd when you want to
+execute files that are stored in a
+different location on your hard
+drive.</p>
+</div>
 </div>
 </div>
 
@@ -218,6 +391,8 @@ or Terminal (Mac).</p>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="first.html" class="btn btn-neutral float-right" title="A first program" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="overview.html" class="btn btn-neutral float-left" title="Lesson Overview" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

@@ -25,6 +25,7 @@
         <script type="text/javascript" src="_static/underscore.js"></script>
         <script type="text/javascript" src="_static/doctools.js"></script>
         <script type="text/javascript" src="_static/language_data.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -109,8 +110,23 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="lessons/L1/anaconda-intro.html">Anaconda basics</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lessons/L1/anaconda-intro.html#the-ide">The IDE</a></li>
-<li class="toctree-l2"><a class="reference internal" href="lessons/L1/anaconda-intro.html#spyder">Spyder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lessons/L1/anaconda-intro.html#the-navigator">The Navigator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lessons/L1/anaconda-intro.html#spyder">Spyder</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="lessons/L1/anaconda-intro.html#the-toolbar">The toolbar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="lessons/L1/anaconda-intro.html#editor">Editor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="lessons/L1/anaconda-intro.html#console">Console</a></li>
+<li class="toctree-l3"><a class="reference internal" href="lessons/L1/anaconda-intro.html#command-line">Command line</a></li>
+<li class="toctree-l3"><a class="reference internal" href="lessons/L1/anaconda-intro.html#tying-it-all-together">Tying it all together</a></li>
+<li class="toctree-l3"><a class="reference internal" href="lessons/L1/anaconda-intro.html#current-working-directory">Current working directory</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="lessons/L1/first.html">A first program</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="lessons/L1/first.html#Good-coding-practices">Good coding practices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lessons/L1/first.html#Math-operators">Math operators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lessons/L1/first.html#Math-module">Math module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lessons/L1/first.html#Variables">Variables</a></li>
 </ul>
 </li>
 </ul>
@@ -179,7 +195,31 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="welcome-to-phy280">
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast.container,
+.nboutput.nblast.container {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast.container + .nbinput.container {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="section" id="welcome-to-phy280">
 <h1>Welcome to Phy280!<a class="headerlink" href="#welcome-to-phy280" title="Permalink to this headline">¶</a></h1>
 <p>The Foundations of Scientific Computing course is meant to introduce you to some basic concepts of scientific computing using a couple different computational tools that are widely available and used extensively in the science and engineering disciplines: Microsoft Excel and the Python programming language.  I expect that you have some experience with at least Excel and possibly Python.  If this is the case, then great!  If not, that is fine too.  The material covered in this course will be useful to you regardless of your skill level with these tools.</p>
 <p>Each lesson will be delivered in a tutorial format so that you can follow along at the pace that best suits you. Then,
@@ -249,8 +289,15 @@ to change</em></p>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="lessons/L1/anaconda-intro.html">Anaconda basics</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="lessons/L1/anaconda-intro.html#the-ide">The IDE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lessons/L1/anaconda-intro.html#the-navigator">The Navigator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lessons/L1/anaconda-intro.html#spyder">Spyder</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="lessons/L1/first.html">A first program</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="lessons/L1/first.html#Good-coding-practices">Good coding practices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lessons/L1/first.html#Math-operators">Math operators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lessons/L1/first.html#Math-module">Math module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lessons/L1/first.html#Variables">Variables</a></li>
 </ul>
 </li>
 </ul>
