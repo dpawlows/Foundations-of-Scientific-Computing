@@ -9,7 +9,7 @@ this course.
 * **Script**:  a document that contains your Python code
   that you
   can execute. Python script files should always
-  have the `` .py `` file extension.
+  have the ``.py`` file extension.
 * **Index**: the **location** of specific value stored in
   Python lists, arrays, or tuples. Not the value itself.
   The first index value of list is always 0.

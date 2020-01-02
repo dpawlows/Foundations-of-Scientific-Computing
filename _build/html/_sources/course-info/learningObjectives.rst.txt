@@ -37,7 +37,7 @@ changes back into the repo when you are finished making modifications.
 
 GitHub is free for anyone that is ok with making their repositories
 publicly available. However, since you are doing this as part of a
-class, that repositories that you create for this class will be
+class, the repositories that you create for this class will be
 private so that only you and I can access them.
 
 You will learn more about these tools in the first few weeks of class.
