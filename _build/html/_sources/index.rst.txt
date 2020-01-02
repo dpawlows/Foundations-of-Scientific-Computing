@@ -10,24 +10,25 @@ that you can test out your new understanding.
 
 The goal of this course is not to make you expert computer programmers in one semester.  Instead, I you should learn that computing is an incredibly powerful and necessary tool, and that you will develop a basic set of skills that will be useful in facilitating learning throughout your career at EMU.
 
-Course topics by week
----------------------
+..
+  Course topics by week
+  ---------------------
 
-Materials will be divided into weekly lessons which will
-be available here every Wednesday morning with the following
-schedule:
+  Materials will be divided into weekly lessons which will
+  be available here every Wednesday morning with the following
+  schedule:
 
-+-----------+--------------------------------+
-| Week      | Content                        |
-+===========+================================+
-| 1         | Introduction to Python;        |
-|           | The Anaconda Distribution;     |
-|           |                                |
-+-----------+--------------------------------+
-| 2         | Basic Functions;               |
-|           | Making Repetitive Calculations;|
-|           |                                |
-+-----------+--------------------------------+
+  +-----------+--------------------------------+
+  | Week      | Content                        |
+  +===========+================================+
+  | 1         | Introduction to Python;        |
+  |           | The Anaconda Distribution;     |
+  |           |                                |
+  +-----------+--------------------------------+
+  | 2         | Basic Functions;               |
+  |           | Making Repetitive Calculations;|
+  |           |                                |
+  +-----------+--------------------------------+
 
 Contents
 --------
@@ -46,7 +47,6 @@ to change*
     course-info/course-info
     course-info/installingPython
     course-info/learningObjectives
-    course-info/grading
     course-info/vocabulary
 
 .. toctree::
@@ -56,6 +56,8 @@ to change*
     lessons/L1/overview
     lessons/L1/anaconda-intro
     lessons/L1/first
+    lessons/L1/coding
+    lessons/L1/exercise1
 
 
 Indices and tables

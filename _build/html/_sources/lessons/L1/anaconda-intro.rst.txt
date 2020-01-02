@@ -43,8 +43,8 @@ to this:
 
     Spyder IDE
 
-The IDE is made up of a toolbar and 3 main sub windows:
-the editor, console, and command line.
+The IDE is made up of a toolbar and 3 main panels:
+the editor, console, and help.
 
 The toolbar
 ^^^^^^^^^^^
@@ -59,40 +59,34 @@ Editor
 A basic text editor for creating and editing
 python code.
 
-Console
+Help
 ^^^^^^^^^^^
-Subwindow that helps to understand what your
+Panel that helps to understand what your
 program is doing, including things like
 showing you which variables have been defined
 and what they are defined as,
 displaying plots, and files in your current working
 directory
 
-Command line
+Console
 ^^^^^^^^^^^^
+Sometimes referred to as the spyder command line. 
 Area for entering commands, seeing program
 output, and interacting with your code.
 It is also possible to run your code
-from the command line. The spyder command line interprets
+from the console. The console interprets
 python code, which means that, generally, anything that you could
 enter into a file as part of a larger program can also
-be entered in the command line. This is great for testing
+be entered in the console. This is great for testing
 code that you want to include in a main program.
 
-.. note ::  I'm being a bit pedantic here and deliberately saying
-            "spyder" when referring to the
-            "spyder" command line. This is to make it very clear that this
-            is a python tool and the commands that can be used must be
-            proper python as opposed to other kinds of commands (e.g. Linux, DOS).
-
-A side effect of all this is you can use the spyder command line
+A side effect of all this is you can use the console
 as a calculator to do some quick calculations. For example, type
 
 ``print(24*60*60)``
 
-and in the command line and press enter to remind yourself
-about the number of seconds in day. 
-
+in the console and press enter to remind yourself
+about the number of seconds in day.
 
 .. note:: The Spyder IDE isn't the only Python
           IDE available. However, most IDEs have a

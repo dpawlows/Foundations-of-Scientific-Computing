@@ -98,10 +98,6 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../course-info/learningObjectives.html">Learning Objectives</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../course-info/grading.html">Grading</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../course-info/grading.html#grading-for-exercises">Grading for exercises</a></li>
-</ul>
-</li>
 <li class="toctree-l1"><a class="reference internal" href="../../course-info/vocabulary.html">Python Vocabulary</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Lesson 1</span></p>
@@ -115,15 +111,32 @@
 <li class="toctree-l2"><a class="reference internal" href="#spyder">Spyder</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#the-toolbar">The toolbar</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#editor">Editor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#help">Help</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#console">Console</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#command-line">Command line</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#tying-it-all-together">Tying it all together</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#current-working-directory">Current working directory</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="first.html">A first program</a></li>
+<li class="toctree-l1"><a class="reference internal" href="first.html">A first program</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="first.html#Math-operators">Math operators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="first.html#Math-module">Math module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="first.html#Variables">Variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="first.html#Data-types">Data types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="first.html#Input">Input</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="coding.html">Good coding practices- Hard coding and variables</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="coding.html#Hard-Coding">Hard Coding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="coding.html#Variable-names">Variable names</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="exercise1.html">Exercise 1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exercise1.html#part-1-github">Part 1- GitHub</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercise1.html#part-2-basic-python">Part 2- Basic Python</a></li>
+</ul>
+</li>
 </ul>
 
             
@@ -249,8 +262,8 @@ to this:</p>
 <a class="reference internal image-reference" href="../../_images/spyder.png"><img alt="spyder IDE" src="../../_images/spyder.png" style="width: 600px;" /></a>
 <p class="caption"><span class="caption-text">Spyder IDE</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
-<p>The IDE is made up of a toolbar and 3 main sub windows:
-the editor, console, and command line.</p>
+<p>The IDE is made up of a toolbar and 3 main panels:
+the editor, console, and help.</p>
 <div class="section" id="the-toolbar">
 <h3>The toolbar<a class="headerlink" href="#the-toolbar" title="Permalink to this headline">¶</a></h3>
 <p>Provides quick access to standard computer application tools used
@@ -264,37 +277,30 @@ is currently loaded in the editor).</p>
 <p>A basic text editor for creating and editing
 python code.</p>
 </div>
-<div class="section" id="console">
-<h3>Console<a class="headerlink" href="#console" title="Permalink to this headline">¶</a></h3>
-<p>Subwindow that helps to understand what your
+<div class="section" id="help">
+<h3>Help<a class="headerlink" href="#help" title="Permalink to this headline">¶</a></h3>
+<p>Panel that helps to understand what your
 program is doing, including things like
 showing you which variables have been defined
 and what they are defined as,
 displaying plots, and files in your current working
 directory</p>
 </div>
-<div class="section" id="command-line">
-<h3>Command line<a class="headerlink" href="#command-line" title="Permalink to this headline">¶</a></h3>
-<p>Area for entering commands, seeing program
+<div class="section" id="console">
+<h3>Console<a class="headerlink" href="#console" title="Permalink to this headline">¶</a></h3>
+<p>Sometimes referred to as the spyder command line.
+Area for entering commands, seeing program
 output, and interacting with your code.
 It is also possible to run your code
-from the command line. The spyder command line interprets
+from the console. The console interprets
 python code, which means that, generally, anything that you could
 enter into a file as part of a larger program can also
-be entered in the command line. This is great for testing
+be entered in the console. This is great for testing
 code that you want to include in a main program.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>I’m being a bit pedantic here and deliberately saying
-“spyder” when referring to the
-“spyder” command line. This is to make it very clear that this
-is a python tool and the commands that can be used must be
-proper python as opposed to other kinds of commands (e.g. Linux, DOS).</p>
-</div>
-<p>A side effect of all this is you can use the spyder command line
+<p>A side effect of all this is you can use the console
 as a calculator to do some quick calculations. For example, type</p>
 <p><code class="docutils literal notranslate"><span class="pre">print(24*60*60)</span></code></p>
-<p>and in the command line and press enter to remind yourself
+<p>in the console and press enter to remind yourself
 about the number of seconds in day.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>

@@ -122,10 +122,21 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../first.html">A first program</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../first.html#Good-coding-practices">Good coding practices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../first.html#Math-operators">Math operators</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../first.html#Math-module">Math module</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../first.html#Variables">Variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../first.html#Data-types">Data types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../first.html#Input">Input</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../coding.html">Good coding practices- Hard coding and variables</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../coding.html#Hard-Coding">Hard Coding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../coding.html#Variable-names">Variable names</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../exercise1.html">Exercise 1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../exercise1.html#part-1-github">Part 1- GitHub</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exercise1.html#part-2-basic-python">Part 2- Basic Python</a></li>
 </ul>
 </li>
 </ul>
@@ -418,7 +429,7 @@ div.rendered_html tbody tr:hover {
 </style>
 <div class="section" id="A-first-program">
 <h1>A first program<a class="headerlink" href="#A-first-program" title="Permalink to this headline">¶</a></h1>
-<p>Now that we are generally aquainted with spyder, let’s write our first program. Make sure you are working with the Spyder IDE. We will write our first program in the file that is provided upon start up (temp.py). To start, let’s just print a message. On the first line in the editor, type</p>
+<p>Now that we are generally acquainted with spyder, let’s write our first program. Make sure you are working with the Spyder IDE. We will write our first program in the file that is provided upon start up (temp.py). To start, let’s just print a message. On the first line in the editor, type</p>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
 </pre></div>
@@ -430,7 +441,7 @@ div.rendered_html tbody tr:hover {
 </div>
 <p>This one line makes use of python’s <code class="docutils literal notranslate"><span class="pre">print</span></code> command to send output from your program to the console. Press the green play button in the toolbar, or press the F5 key, and spyder will run your program. If all went well, you should see your message in the console. If you made a mistake, then python will try to tell you what you did wrong by passing an error message. There isn’t much to get wrong here, but if you did get an error message make sure you have opening and closing quotation marks as
 well as opening and closing parenthesis. Also, make sure there is no white space in front of the print command itself.</p>
-<p>Now is a good time to point out something obvious. When you write software, the computer is going to only do what you tell it. That means you have to be incredibly precise when writting code. Simple mistakes like forgetting a quotation mark, adding an extra blank space somewhere, or missing a close parenthesis or bracket will break your code.</p>
+<p>Now is a good time to point out something obvious. When you write software, the computer is going to only do what you tell it. That means you have to be incredibly precise when writing code. Simple mistakes like forgetting a quotation mark, adding an extra blank space somewhere, or missing a close parenthesis or bracket will break your code.</p>
 <p>Of course, we can do more than just print messages. We can also do math operations. Add the following lines to your program and execute the file again.</p>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
@@ -446,25 +457,6 @@ well as opening and closing parenthesis. Also, make sure there is no white space
 </div>
 </div>
 <p>Your program should now output your original message plus perform the above calculations and output the solutions.</p>
-<div class="section" id="Good-coding-practices">
-<h2>Good coding practices<a class="headerlink" href="#Good-coding-practices" title="Permalink to this headline">¶</a></h2>
-<p>As we go through this tutorial, I will try to make a point to emphasize certain “good coding practices”. In these first simple lines, I’ve tried to introduce two such practices: 1) avoid hard coding and 2) use good names for your variables. Generally, hard coding is the practice of writing code without using variables appropriately. For example, I could have written the lines above in a different way and achieved the same result:</p>
-<div class="nbinput nblast docutils container">
-<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
-</pre></div>
-</div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
-<span></span><span class="nb">print</span><span class="p">(</span><span class="mi">24</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">60</span><span class="p">)</span>
-
-<span class="n">nSecondsInYear</span> <span class="o">=</span> <span class="mi">24</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">*</span> <span class="mf">325.25</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">nSecondsInYear</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<p>In this example, I printed the number of seconds in a day and then calculated the number of seconds in a year by performing the same calculation that I used in the previous line. The first example made use of the variable <code class="docutils literal notranslate"><span class="pre">nSecondsInDay</span></code> and thus avoided having multiple instances of the same calculation. Not only is this more efficient to code in the first place and more efficient for the computer itself, it is also easier to alter the code in the first example. Let’s say I used this code at a
-planet where there were 25 hours per day instead of 24, in the first example, I would only have to alter the code in a single location as opposed to the 2 locations in the second example.</p>
-<p>Using good variable names should be obvious. Note that in these examples I named my variables in such a way that they told me what they represent physically. Naturally, this practice makes it much easier to understand the code that you wrote. Not only will this help other users of your code, but your future self will thank you as well. Save single character variable names for counters, and that’s about it.</p>
-</div>
 <div class="section" id="Math-operators">
 <h2>Math operators<a class="headerlink" href="#Math-operators" title="Permalink to this headline">¶</a></h2>
 <p>The math operators and usage are shown in the table below:</p>
@@ -538,7 +530,7 @@ planet where there were 25 hours per day instead of 24, in the first example, I 
 <ul class="simple">
 <li><p>A module is a group of code items such as functions that are related to one another. Individual modules may be in a group called a <em>library</em> or a <em>package</em>.</p></li>
 <li><p>Modules can be imported using <code class="docutils literal notranslate"><span class="pre">import</span></code>. Functions that are part of the module <code class="docutils literal notranslate"><span class="pre">modulename</span></code> can be used with <em>dot notation</em> by typing <code class="docutils literal notranslate"><span class="pre">modulename.functionname</span></code>. For example, we’ve used the <code class="docutils literal notranslate"><span class="pre">sin()</span></code> function which is part of the <code class="docutils literal notranslate"><span class="pre">math</span></code> module by typing <code class="docutils literal notranslate"><span class="pre">math.sin()</span></code> with some number between the parenthesis.</p></li>
-<li><p>Modules may also contain constants such as <code class="docutils literal notranslate"><span class="pre">math.pi</span></code>. Print this in your file and execute it to see the value of the contant <code class="docutils literal notranslate"><span class="pre">math.pi</span></code>.</p></li>
+<li><p>Modules may also contain constants such as <code class="docutils literal notranslate"><span class="pre">math.pi</span></code>. Print this in your file and execute it to see the value of the constant <code class="docutils literal notranslate"><span class="pre">math.pi</span></code>.</p></li>
 </ul>
 <p><strong>Try it yourself</strong></p>
 <p>You can combine functions! See if you can get your code to print the value of cos(pi/4). Make sure to use the pi constant defined in the math module.</p>
@@ -595,6 +587,84 @@ planet where there were 25 hours per day instead of 24, in the first example, I 
 <div class="admonition note">
 <p class="admonition-title fa fa-exclamation-circle"><strong>Note</strong></p>
 <p>You have to define a variable via assignment before you can use it (to do a calculation or in a function, etc.)!</p>
+</div>
+</div>
+<div class="section" id="Data-types">
+<h2>Data types<a class="headerlink" href="#Data-types" title="Permalink to this headline">¶</a></h2>
+<p>So we know that we need to store data using variables. But, it should be expected that certain operations can only be performed on certain types of data. For example, in order to perform a mathematical operation such as multiplication or division, we should be working with numerical data. It wouldn’t necessarily make sense to perform these operations on some textual data.</p>
+<p>For this reason, all programming languages have certain data types that belong to variables when we assign values to them. There are many different variable types in python. The four basic data types are shown in the table below.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 28%" />
+<col style="width: 39%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Python name</p></th>
+<th class="head"><p>Data Type</p></th>
+<th class="head"><p>Example</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>int</p></td>
+<td><p>Integer</p></td>
+<td><p>15</p></td>
+</tr>
+<tr class="row-odd"><td><p>float</p></td>
+<td><p>Real number</p></td>
+<td><p>42.67</p></td>
+</tr>
+<tr class="row-even"><td><p>str</p></td>
+<td><p>Character string</p></td>
+<td><p>‘wolverine’</p></td>
+</tr>
+<tr class="row-odd"><td><p>bool</p></td>
+<td><p>Boolean</p></td>
+<td><p>True or False</p></td>
+</tr>
+</tbody>
+</table>
+<p>Pay attention to the python name as those are the names that will be printed to the screen if you ask python what type of variable you are working with or if python throws an error because you are trying to do something with a variable that isn’t allowed for that variable’s data type. We will meet other data types as the need arises.</p>
+<p><strong>Try it yourself</strong></p>
+<p>You can determine the data type of a variable using python’s <code class="docutils literal notranslate"><span class="pre">type()</span></code> function. In the file that you are working with or in the console, have python determine the type of several different variables that you create by typing <code class="docutils literal notranslate"><span class="pre">print(type(variablename))</span></code> where <code class="docutils literal notranslate"><span class="pre">variablename</span></code> is the name of your variable.</p>
+</div>
+<div class="section" id="Input">
+<h2>Input<a class="headerlink" href="#Input" title="Permalink to this headline">¶</a></h2>
+<p>One of the most common things that we do when working with software is take input from the user when a program is running. Python makes this task pretty easy with the <code class="docutils literal notranslate"><span class="pre">input()</span></code> function. Try the following in your temp file:</p>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">username</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Please enter your name: &#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<p>Then run your program again. You should be prompted to enter some text in the console.</p>
+<div></div><p>Your program is still running, but it is waiting for you to use the keyboard to enter something. So, you can type your name in the console and hit enter. The result of this is your name will be stored in the variable <code class="docutils literal notranslate"><span class="pre">username</span></code>. And now you can use that variable as you would any other variable in python. For example, we could print it the username:</p>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="nb">print</span><span class="p">(</span><span class="n">username</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<p>or work with it in other ways:</p>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="nb">print</span><span class="p">(</span><span class="n">username</span><span class="o">.</span><span class="n">upper</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">username</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">username</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="admonition note">
+<p><strong>Note</strong> The <code class="docutils literal notranslate"><span class="pre">input()</span></code> function takes at least 1 argument (an argument is the thing that goes between the parenthesis) and then stores the text that you enter as a <code class="docutils literal notranslate"><span class="pre">str</span></code>. It doesn’t matter what you enter in the prompt: letters, numbers, etc. the resulting data type will always be a character string.</p>
 </div>
 </div>
 </div>
