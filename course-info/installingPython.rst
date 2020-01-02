@@ -30,17 +30,19 @@ Install Python on macOS
 
 OSX users can visit `the Anaconda downloads page <https://www.anaconda.com/distribution/#download-section>`__ and click to download the latest 64-Bit Graphical Installer for the Python 3 version of Anaconda.
 
-Run the installer and follow the prompts to install Anaconda using the default options.
-
-Then, open up the Terminal application and enter ``conda --version`` to
-verify a correct installation.
-
 .. figure:: images/anaconda_osx.png
     :width: 300px
     :align: center
     :alt: Downloading the latest Anaconda for Mac
 
     You probably want the graphical option, but you do you.
+    
+Run the installer and follow the prompts to install Anaconda using the default options.
+
+Then, open up the Terminal application and enter ``conda --version`` to
+verify a correct installation.
+
+
 
 Updating
 --------
