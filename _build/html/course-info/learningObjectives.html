@@ -36,7 +36,7 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Grading" href="grading.html" />
+    <link rel="next" title="Python Vocabulary" href="vocabulary.html" />
     <link rel="prev" title="Installing Python" href="installingPython.html" /> 
 </head>
 
@@ -97,9 +97,8 @@
 <li class="toctree-l2"><a class="reference internal" href="installingPython.html#updating">Updating</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Learning Objectives</a></li>
-<li class="toctree-l1"><a class="reference internal" href="grading.html">Grading</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="grading.html#grading-for-exercises">Grading for exercises</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Learning Objectives</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#git-and-github">Git and GitHub</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="vocabulary.html">Python Vocabulary</a></li>
@@ -115,8 +114,8 @@
 <li class="toctree-l2"><a class="reference internal" href="../lessons/L1/anaconda-intro.html#spyder">Spyder</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../lessons/L1/anaconda-intro.html#the-toolbar">The toolbar</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../lessons/L1/anaconda-intro.html#editor">Editor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../lessons/L1/anaconda-intro.html#help">Help</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../lessons/L1/anaconda-intro.html#console">Console</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../lessons/L1/anaconda-intro.html#command-line">Command line</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../lessons/L1/anaconda-intro.html#tying-it-all-together">Tying it all together</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../lessons/L1/anaconda-intro.html#current-working-directory">Current working directory</a></li>
 </ul>
@@ -124,11 +123,21 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../lessons/L1/first.html">A first program</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../lessons/L1/first.html#Good-coding-practices">Good coding practices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lessons/L1/first.html#Math-operators">Math operators</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lessons/L1/first.html#Math-module">Math module</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lessons/L1/first.html#Variables">Variables</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../lessons/L1/first.html#Data-types">Data types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lessons/L1/first.html#Input">Input</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lessons/L1/coding.html">Good coding practices- Hard coding and variables</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lessons/L1/coding.html#Hard-Coding">Hard Coding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lessons/L1/coding.html#Variable-names">Variable names</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lessons/L1/exercise1.html">Exercise 1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lessons/L1/exercise1.html#part-1-github">Part 1- GitHub</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lessons/L1/exercise1.html#part-2-basic-python">Part 2- Basic Python</a></li>
 </ul>
 </li>
 </ul>
@@ -227,7 +236,7 @@
 achieve by taking this course. Specifically,
 you should understand</p>
 <ol class="arabic simple">
-<li><p>how to run and modify python programs.</p></li>
+<li><p>how to run and modify python programs and use version control.</p></li>
 <li><p>the basic elements of a scientific program.</p></li>
 <li><p>how to perform simple data analysis tasks.</p></li>
 <li><p>how scientific computer programs can help us better
@@ -236,6 +245,32 @@ understand the physics of a system.</p></li>
 <p>While we will be working with the Python programming language,
 it should be noted that the concepts that we will
 cover can be utilized in any language.</p>
+<div class="section" id="git-and-github">
+<h2>Git and GitHub<a class="headerlink" href="#git-and-github" title="Permalink to this headline">¶</a></h2>
+<p>In this course, we will use the version control software Git as well
+as the Git repository hosting service, GitHub.</p>
+<p>Having a system for keeping track of different versions of the
+software that you create is one of the crucial set of “good coding
+practices”. There are several systems for doing this. Git is
+one of the more popular ones. In this class, we will only
+scratch the surface of using Git.</p>
+<p>While Git is the software that helps to keep track of your code,
+GitHub is a service that hosts your code so that you can access it
+from any computer and share it with other users. When you
+use Git to track your code, you create a code “repository”, or “repo”.
+GitHub stores your repositories on their own servers and makes
+it easy to clone (download a separate copy) the code and commit
+changes back into the repo when you are finished making modifications.</p>
+<p>GitHub is free for anyone that is ok with making their repositories
+publicly available. However, since you are doing this as part of a
+class, that repositories that you create for this class will be
+private so that only you and I can access them.</p>
+<p>You will learn more about these tools in the first few weeks of class.
+For now, just know that you will be using them and if you
+would like to know more, there are many great resources online. For
+starters, you can check out <a class="reference external" href="https://rogerdudler.github.io/git-guide/">https://rogerdudler.github.io/git-guide/</a>
+and <a class="reference external" href="https://guides.github.com/">https://guides.github.com/</a> for more info.</p>
+</div>
 </div>
 
 
@@ -246,7 +281,7 @@ cover can be utilized in any language.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="grading.html" class="btn btn-neutral float-right" title="Grading" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="vocabulary.html" class="btn btn-neutral float-right" title="Python Vocabulary" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="installingPython.html" class="btn btn-neutral float-left" title="Installing Python" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
