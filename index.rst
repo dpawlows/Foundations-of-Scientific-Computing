@@ -14,25 +14,53 @@ that you can test out your new understanding.
 
 The goal of this course is not to make you expert computer programmers in one semester.  Instead, you should learn that computing is an incredibly powerful and necessary tool, and, you will develop a basic set of skills that will be useful in facilitating learning throughout your career at EMU.
 
-..
-  Course topics by week
-  ---------------------
+Course topics by week
+---------------------
 
-  Materials will be divided into weekly lessons which will
-  be available here every Wednesday morning with the following
-  schedule:
+Materials will be divided into weekly lessons which will
+be available here every Wednesday morning with the following
+schedule:
 
-  +-----------+--------------------------------+
-  | Week      | Content                        |
-  +===========+================================+
-  | 1         | Introduction to Python;        |
-  |           | The Anaconda Distribution;     |
-  |           |                                |
-  +-----------+--------------------------------+
-  | 2         | Basic Functions;               |
-  |           | Making Repetitive Calculations;|
-  |           |                                |
-  +-----------+--------------------------------+
++-----------+--------------------------------+
+| Week      | Content                        |
++===========+================================+
+| 1         | Introduction to Python;        |
+|           | The Anaconda Distribution      |
+|           |                                |
++-----------+--------------------------------+
+| 2         | Git and GitHub;                |
+|           | Basic Python                   |
++-----------+--------------------------------+
+| 3         | Repetitive tasks with Python;  |
+|           | Loops; iterables               |
++-----------+--------------------------------+
+| 4         | Conditional statements;        |
+|           | conditional operators          |
++-----------+--------------------------------+
+| 5         | Debugging                      |
++-----------+--------------------------------+
+| 6         | Functions;                     |
+|           | Modules                        |
++-----------+--------------------------------+
+| 7         | Basic Plotting with Matplotlib |
+|           | What makes a figure            |
++-----------+--------------------------------+
+| 8         | Higher dimension datasets;     |
+|           | 2D plotting with Matplotlib    |
++-----------+--------------------------------+
+| 9         | Other plot types               |
++-----------+--------------------------------+
+| 10        | Data processing;               |
+|           | Intro to Pandas                |
++-----------+--------------------------------+
+| 11        | More Pandas                    |
++-----------+--------------------------------+
+| 12        | Basic Data Analysis            |
++-----------+--------------------------------+
+| 13        | Data Analysis 2                |
++-----------+--------------------------------+
+| 14        | Animations                     |
++-----------+--------------------------------+
 
 Contents
 --------
@@ -62,7 +90,6 @@ to change*
     lessons/L1/first
     lessons/L1/coding
     lessons/L1/exercise1
-
 
 Indices and tables
 ==================
