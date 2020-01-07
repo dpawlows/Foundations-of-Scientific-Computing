@@ -18,14 +18,36 @@ Documentation can take a few forms. At the most basic level, adding
 comments to the code itself can serve to explain the basic purpose
 of that piece of software, how it should be used, and a description
 of the code itself (including sources where appropriate). At a
-higher level, it might be necessary to include separate documents 
+higher level, it might be necessary to include separate documents
 with the files that make up a complex program or module, such
 as a README, to explain how your program works and how to use it.
 
 In this course, we will often be dealing with programs that
 are executed with a single file, so higher level documentation
 isn't usually necessary. But, commenting your code is a practice
-that you should adopt and use consistently. Here are some
+that you should adopt and use consistently.
+
+In python, there are a couple ways that you can include
+comments in your file:
+
+* A ``#`` symbol tells python to ignore all text from that point until the
+  end of the line. If the `#` is at the beginning of a line, the
+  entire line is ignored
+* Triple quotes ``'''`` are used to comment out multiple lines. For example:
+  ::
+
+    '''
+    This is a comment block.
+    All of these lines would be ignored by the python
+    interpreter when the file is executed.
+    '''
+* If the ``'''`` comment block
+  is used right after a function definition, the comment becomes
+  part of that function's `doc string <https://www.geeksforgeeks.org/python-docstrings/>`_, which is a special
+  attribute of every function that serves to provide usage information
+  for that function.
+
+Here are some
 guidelines for commenting your code:
 
 * At the top of your program, briefly describe the purpose of the
