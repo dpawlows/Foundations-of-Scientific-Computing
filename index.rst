@@ -93,6 +93,10 @@ to change*
     :caption: Lesson 2
 
     lessons/L2/overview
+    lessons/L2/basics
+    lessons/L2/lists
+    lessons/L2/coding
+    lessons/L2/second
 
 
 
