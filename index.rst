@@ -88,7 +88,8 @@ to change*
     lessons/L1/coding
     lessons/L1/exercise1
 
-.. toctree::
+..
+  .. toctree::
     :maxdepth: 2
     :caption: Lesson 2
 
