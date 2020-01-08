@@ -91,6 +91,19 @@ to change*
     lessons/L1/coding
     lessons/L1/exercise1
 
+..
+  .. toctree::
+    :maxdepth: 2
+    :caption: Lesson 2
+
+    lessons/L2/overview
+    lessons/L2/basics
+    lessons/L2/lists
+    lessons/L2/coding
+    lessons/L2/second
+
+
+
 Indices and tables
 ==================
 
