@@ -28,11 +28,13 @@ schedule:
 |           | The Anaconda Distribution      |
 |           |                                |
 +-----------+--------------------------------+
-| 2         | Git and GitHub;                |
-|           | Basic Python                   |
+| 2         | Basic Python;                  |
+|           | Lists                          |
 +-----------+--------------------------------+
-| 3         | Repetitive tasks with Python;  |
-|           | Loops; iterables               |
+| 3         | Version control, git, and      |
+|           | GitHub                         |
+|           | Repetitive tasks with Python;  |
+|           | Iterables                      |
 +-----------+--------------------------------+
 | 4         | Conditional statements;        |
 |           | conditional operators          |
