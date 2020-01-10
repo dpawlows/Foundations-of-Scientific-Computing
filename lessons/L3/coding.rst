@@ -70,7 +70,7 @@ We will talk more about using JupyterLab in a future
 lesson, but here we will use it to access
 the Terminal. You should see the terminal icon
 in your JupyterLab startup under the "other" heading.
-If not, you can click on `file` then `new` then `Terminal`.
+If not, you can click on ``file`` then ``new`` then ``Terminal``.
 
 .. figure:: images/terminal.png
     :width: 600px
@@ -125,6 +125,7 @@ you are ready commit to your local repository, but haven't done so yet. The thir
 Let's clone one of your GitHub repositories. To do that, in the terminal enter:
 
 ::
+
   git clone link_to_remote_repository
 
 where you need to replace "link_ro_remote_repository"
@@ -141,7 +142,7 @@ repository there.
 
 You can get the link to the remote repository by clicking
 on the 'Clone or Download' button. Copy that URL and
-paste it in the terminal as part of the `git clone`
+paste it in the terminal as part of the ``git clone``
 command. Hit enter and enter your GitHub credentials
 if you are prompted for them.
 
@@ -156,8 +157,8 @@ with the same name as your repository.
           probably your "home" directory.
           You can change directories in the
           terminal by using the
-          `cd directoryname` command, and then clone
-           to that directory if you want.
+          ``cd directoryname`` command, and then clone
+          to that directory if you want.
 
 
 git workflow
@@ -173,11 +174,12 @@ on GitHub. Using the terminal, the process is very straightforward.
 The 3 commands that you need to do all of this:
 
 ::
+
   git add filename
   git commit -m 'message'
   git push origin master
 
-The `git add` command will add the file called "filename"
+The ``git add`` command will add the file called "filename"
 to the index. You can use this command to add multiple
 files over the course of a coding session. Again, the point of the index is to stage your commits so that
 you can make changes to one file, at that file to the index,
@@ -185,8 +187,8 @@ and then work on a different file and not have to remember
 what you were doing on that old file.
 
 After you add one or more files to the index with
-`git add` it is time to commit those changes to your
-local repository using the `git commit` command.
+``git add`` it is time to commit those changes to your
+local repository using the ``git commit`` command.
 You always want to include a message when making a commit
 to let yourself and others know what changes you just
 added to the project.
@@ -195,7 +197,7 @@ Finally, when you've made all of your commits and
 are ready to upload the code to GitHub so you can share
 it with others or be able to access your changes
 from a different computer, it is time to
-use the `git push origin master` command. This will
+use the ``git push origin master`` command. This will
 *push* the changes that you've made to your local
 repository to your remote repository (on github).
 In this context,
@@ -217,9 +219,27 @@ Did you forget which files you've changed and which
 you've added to the staging area? Did you
 commit those changes that you were working on 2 hours
 ago? These questions and more are answered by
-the `git status` command. This command will tell
+the ``git status`` command. This command will tell
 you what you've changed and what you still need to commit
 so you always know where your files are at in the
 git workflow. Use if often. But note, it will
 not tell you if you've pushed changes to your remote
-repository. You can 
+repository. You can use ``git diff master origin/master``
+to do that.
+
+Issues
+^^^^^^^^
+
+Chances are, you will do something, sometime, and
+either your commit or push will not work as expected.
+It happens. Figuring out what went and how to fix
+it really takes experience working with git because
+each case is different. So, for our purposes, I want
+to give you the secret trick to fixing all git issues.
+
+.. figure:: images/xkcd.png
+    :width: 300px
+    :align: center
+    :alt: xkcd git
+
+    Seriously, do this.
