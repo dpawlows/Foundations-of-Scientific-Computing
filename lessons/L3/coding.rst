@@ -205,4 +205,21 @@ refers to the branch that you are pushing changes to
 (branching is a special feature of git and it is
 awesome, but we wont be using it in this course).
 
-If all goes well, your changes show up on the git 
+If all goes well, you should see a bunch of output
+to the screen with a "Writing objects" 100%
+in there somewhere. Then, you can see that
+your changes have shown up on GitHub.
+
+Git status
+^^^^^^^^^^
+
+Did you forget which files you've changed and which
+you've added to the staging area? Did you
+commit those changes that you were working on 2 hours
+ago? These questions and more are answered by
+the `git status` command. This command will tell
+you what you've changed and what you still need to commit
+so you always know where your files are at in the
+git workflow. Use if often. But note, it will
+not tell you if you've pushed changes to your remote
+repository. You can 
