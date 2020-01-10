@@ -1,5 +1,5 @@
 Good coding practices- Version control with git
-======================================
+===============================================
 
 For this week's good coding practices, the focus
 is on maintaining and keeping track of changes
@@ -92,8 +92,8 @@ the following command:
 
   conda install -c anaconda git
 
-You will probably be told various things need updating,
-and then prompted to enter whether to proceed or not.
+You will probably be told that various things need updating,
+and then prompted be to enter whether to proceed or not.
 Enter 'y' and git (and some other updates) will
 be installed.
 
@@ -103,18 +103,17 @@ Using git
 In this course, we will use git to
 
 1. **Clone** (download) code from your remote repositories on GitHub.
-2. Commit changes to your code on your local computer
+2. **Commit** changes to your code on your local computer
    to maintain a history of the progress of your programs.
 3. **Push** (upload) your commits back to the remote repository so
    they can be accessed from any other computer
    (and by me).
 
 We will do these things by entering specific commands
-in the terminal. First, a quick primer on how git
-works.
+in the terminal.
 
-Cloning
-^^^^^^^
+git clone
+^^^^^^^^^
 When you clone your github repository to your local machine, git will use three "trees" to manage your
 project. The first one is your *working directory*,
 which is simply the directory that contains your
@@ -122,7 +121,8 @@ actual files. The second tree is called the *index*
 and is a staging area the keeps track of the files that
 you are ready commit to your local repository, but haven't done so yet. The third tree is the *head* and it points at the last commit that you've made.
 
-Let's clone one of your GitHub repositories. To do that, in the terminal enter:
+Let's clone one of your GitHub repositories to
+see how all of this works. To do that, in the terminal enter:
 
 ::
 
@@ -138,9 +138,10 @@ repository there.
     :align: center
     :alt: a remote GitHub
 
-    My exercise02 repo
+    The URL for my exercise02 repo is
+    https://github.com/emuphysics/exercise02.git
 
-You can get the link to the remote repository by clicking
+To get the link to the remote repository, click
 on the 'Clone or Download' button. Copy that URL and
 paste it in the terminal as part of the ``git clone``
 command. Hit enter and enter your GitHub credentials
@@ -151,18 +152,19 @@ on your local computer that is located in a directory
 with the same name as your repository.
 
 .. note:: When you clone your remote repo, it will be
-          cloned to the current working directory on your local machine, the directory that you were
+          cloned to the current working directory on your local machine: the directory that you were
           in when you entered the clone command. If you
           didn't change directories, your cwd is
-          probably your "home" directory.
+          probably your "home" directory on that computer.
+          (something like /Users/<username>/)
           You can change directories in the
           terminal by using the
           ``cd directoryname`` command, and then clone
           to that directory if you want.
 
 
-git workflow
-^^^^^^^^^^^^
+git workflow- the main commands
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Once you have a clone of your code on your local computer,
 you can modify those files as needed. Then,
@@ -180,9 +182,10 @@ The 3 commands that you need to do all of this:
   git push origin master
 
 The ``git add`` command will add the file called "filename"
-to the index. You can use this command to add multiple
-files over the course of a coding session. Again, the point of the index is to stage your commits so that
-you can make changes to one file, at that file to the index,
+to the **index**. You can use this command to add multiple
+files over the course of a coding session before
+moving on to the next step if you want. Again, the point of the index is to stage your commits so that
+you can make changes to one file, add that file to the index,
 and then work on a different file and not have to remember
 what you were doing on that old file.
 
@@ -191,7 +194,8 @@ After you add one or more files to the index with
 local repository using the ``git commit`` command.
 You always want to include a message when making a commit
 to let yourself and others know what changes you just
-added to the project.
+added to the project. After this command is executed
+the **head** will point at this latest commit.
 
 Finally, when you've made all of your commits and
 are ready to upload the code to GitHub so you can share
@@ -212,7 +216,27 @@ to the screen with a "Writing objects" 100%
 in there somewhere. Then, you can see that
 your changes have shown up on GitHub.
 
-Git status
+In summary, once you have cloned a remote repository
+to your local machine (you only have to do this once) the git workflow is this:
+
+* make changes to your code
+* ``git add filename(s)`` to add those changes to the
+  **index**
+* ``git commit -m 'message'`` to commit the changes to
+  your local repo
+* ``git push origin master`` to push your local changes
+  to your remote repo on GitHub
+
+git pull
+^^^^^^^^
+
+If your remote repository has changed and your local
+repository is behind (this will happen if
+I push changes to a repository that you have already cloned or if you work on multiple computers), you can use the ``git pull``
+command to **pull** (download and update) your local repo.
+
+
+git status
 ^^^^^^^^^^
 
 Did you forget which files you've changed and which
