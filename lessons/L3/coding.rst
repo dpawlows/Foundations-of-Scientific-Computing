@@ -194,15 +194,22 @@ After you add one or more files to the index with
 local repository using the ``git commit`` command.
 You always want to include a message when making a commit
 to let yourself and others know what changes you just
-added to the project. After this command is executed
+added to the project. After this command is executed,
 the **head** will point at this latest commit.
+
+.. figure::  images/workflow.png
+      :width: 300px
+      :align: center
+      :alt: workflow
+
+      The git workflow
 
 Finally, when you've made all of your commits and
 are ready to upload the code to GitHub so you can share
 it with others or be able to access your changes
 from a different computer, it is time to
 use the ``git push origin master`` command. This will
-*push* the changes that you've made to your local
+**push** the changes that you've made to your local
 repository to your remote repository (on github).
 In this context,
 origin is a shorthand name for the remote repository
@@ -210,6 +217,7 @@ that your project was originally cloned from. Master
 refers to the branch that you are pushing changes to
 (branching is a special feature of git and it is
 awesome, but we wont be using it in this course).
+
 
 If all goes well, you should see a bunch of output
 to the screen with a "Writing objects" 100%
@@ -219,7 +227,7 @@ your changes have shown up on GitHub.
 In summary, once you have cloned a remote repository
 to your local machine (you only have to do this once) the git workflow is this:
 
-* make changes to your code
+* **make changes** to your code
 * ``git add filename(s)`` to add those changes to the
   **index**
 * ``git commit -m 'message'`` to commit the changes to
@@ -266,4 +274,4 @@ to give you the secret trick to fixing all git issues.
     :align: center
     :alt: xkcd git
 
-    Seriously, do this.
+    Seriously, do this. [source: xkcd.com]
