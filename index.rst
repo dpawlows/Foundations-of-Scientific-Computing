@@ -42,7 +42,7 @@ schedule:
 | 6         | Functions;                     |
 |           | Modules                        |
 +-----------+--------------------------------+
-| 7         | Basic Plotting with Matplotlib |
+| 7         | Basic Plotting with Matplotlib;|
 |           | What makes a figure            |
 +-----------+--------------------------------+
 | 8         | Higher dimension datasets;     |
@@ -107,7 +107,9 @@ to change*
   :caption: Lesson 3
 
   lessons/L3/overview
+  lessons/L3/recursion
   lessons/L3/coding
+
 
 
 
