@@ -3,7 +3,7 @@ Lesson Overview
 
 Now that we've learned about lists, we can
 start to talk about how we can use computers
-to really do some of the repetative tasks
+to really do some of the repetitive tasks
 that makes programming so useful. We'll also talk
 about the concept of an iterable in python,
 a class of datatypes of which the list is one.
@@ -12,6 +12,8 @@ control using git.
 
 The components of this lesson are:
 
+1. `understand how to loop in python <recursion.ipynb>`_
+2. :doc:`learn the basics of version control with git <coding>`_
 
 Learning Goals
 --------------

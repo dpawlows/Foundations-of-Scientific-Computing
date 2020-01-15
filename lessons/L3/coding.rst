@@ -97,8 +97,10 @@ and then prompted be to enter whether to proceed or not.
 Enter 'y' and git (and some other updates) will
 be installed.
 
+.. _using_git:
+
 Using git
-^^^^^^^^^
+*********
 
 In this course, we will use git to
 
@@ -162,6 +164,7 @@ with the same name as your repository.
           ``cd directoryname`` command, and then clone
           to that directory if you want.
 
+.. _git_workflow:
 
 git workflow- the main commands
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
