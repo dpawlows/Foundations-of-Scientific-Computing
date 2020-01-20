@@ -44,7 +44,7 @@ schedule:
 | 6         | Functions;                     |
 |           | Modules                        |
 +-----------+--------------------------------+
-| 7         | Basic Plotting with Matplotlib |
+| 7         | Basic Plotting with Matplotlib;|
 |           | What makes a figure            |
 +-----------+--------------------------------+
 | 8         | Higher dimension datasets;     |
@@ -103,6 +103,15 @@ to change*
   lessons/L2/lists
   lessons/L2/coding
   lessons/L2/second
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Lesson 3
+
+  lessons/L3/overview
+  lessons/L3/recursion
+  lessons/L3/coding
+  lessons/L3/third
 
 
 
