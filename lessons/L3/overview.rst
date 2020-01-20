@@ -13,7 +13,7 @@ control using git.
 The components of this lesson are:
 
 1. `understand how to loop in python <recursion.ipynb>`_
-2. :doc:`learn the basics of version control with git <coding>`_
+2. :doc:`learn the basics of version control with git <coding>`
 
 Learning Goals
 --------------
