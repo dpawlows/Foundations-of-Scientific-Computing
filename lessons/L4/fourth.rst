@@ -1,5 +1,5 @@
-Exercise 04
-===========
+Exercise 4
+==========
 
 You can find and accept the assignment here:
 `<https://classroom.github.com/a/Abr0ej4G>`_.
