@@ -113,6 +113,14 @@ to change*
   lessons/L3/coding
   lessons/L3/third
 
+.. toctree::
+  :maxdepth: 2
+  :caption: Lesson 4
+
+  lessons/L4/overview
+  lessons/L4/operators
+  lessons/L4/conditionals
+  
 
 
 Indices and tables
