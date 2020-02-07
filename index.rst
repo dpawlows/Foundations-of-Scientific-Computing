@@ -122,6 +122,12 @@ to change*
   lessons/L4/conditionals
   lessons/L4/fourth
 
+.. toctree::
+  :maxdepth: 2
+  :caption: Lesson 5
+
+  lessons/L5/overview
+  lessons/L5/debugging
 
 Indices and tables
 ==================
