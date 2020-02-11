@@ -128,6 +128,7 @@ to change*
 
   lessons/L5/overview
   lessons/L5/debugging
+  .. lessons/L5/latex
 
 Indices and tables
 ==================
