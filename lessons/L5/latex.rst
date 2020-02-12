@@ -16,16 +16,16 @@ easier than typical word processing software.
 Here, we are only going to learn about one aspect of
 Latex: math mode. Latex math mode makes writing math
 expressions very straightforward. Instead of relying
-on a mouse-driven equation editor and is cumbersome,
+on a mouse-driven equation editor, which can be quite cumbersome,
 math mode uses specific keystrokes to help create beautifully
 formatted equations.
 
 In order to get access to Latex math mode, you need
 to download and install a complete Latex distriubtion
-such as `MacTex (for Max) <http://www.tug.org/mactex/>`_
+such as `MacTex (for Max) <http://www.tug.org/mactex/>`_ or
 `MikTex (for Windows) <https://miktex.org/>`_. Then,
-there are packages available that allow you to run math mode
-only to produce equations that can be dragged and dropped
+there are packages available that allow you to run just math mode
+to produce equations that can be dragged and dropped
 (copied and pasted) into another document (e.g. Word,
 Powerpoint, etc.). For example, MacTex comes with
 one such package called `LatexIt <https://www.chachatelier.fr/latexit/>`_.
@@ -35,8 +35,8 @@ Latex Math Mode in the browser
 ------------------------------
 
 Maybe even better, there are several websites that
-allow you to run Latex Math Mode from the browser, and
-I recommend going that direction for now as installing
+allow you to run Latex math mode from the browser, and
+I recommend going in that direction for now as installing
 a full Latex distribution is more than we need at this point.
 To get started, head over to `<https://www.latex4technics.com/>`_
 which does everything we need it to.
@@ -57,7 +57,7 @@ right (there are two, but for all intents and purposes, they do the same thing).
 This website works pretty simply. First you add text to the
 text entry pane. When you are finished, you hit the
 **compile** button. Then, your lovely equation should show up in the output window, assuming everything was entered correctly. Finally, you can either right click on the equation that is output and copy the image, or click the **export** button to save the image in a format of your choice (and the resolution of your choice). The hard part, if you can call it hard, is
-figuring out what to enter.
+figuring out what to enter in the text entry pane.
 
 Latex syntax
 ------------
@@ -72,7 +72,7 @@ This should be your go to resource for getting up and running.
 For this reason, I will touch on just a few things here.
 
 As you can see from the example, anything special that
-you want to do needs to start with a backslash "\\". Think
+you want to do needs to start with a backslash ``\``. Think
 of the backslash as a special character that initiates
 a command. After the backslash is the command name. Again,
 these are meant to be intuitive. Let's go ahead and
@@ -97,7 +97,7 @@ partials and we can use ``\nabla\cdot E`` to use the del
 operator (here with a dot product to give us
 the divergence of E!).
 
-Note that the catalogue gives you quick access to some
+Note that the catalogue (left window) gives you quick access to some
 of the math mode functionality. However, I highly recommend
 learning the keystrokes as it is much faster and more
 efficient then messing around in those menus. Use the
