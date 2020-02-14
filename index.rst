@@ -131,6 +131,14 @@ to change*
   lessons/L5/latex
   lessons/L5/fifth
 
+.. toctree::
+  :maxdepth: 2
+  :caption: Lesson 6
+
+  lessons/L6/overview
+  lessons/L6/functions
+  lessons/L6/userdefined
+
 Indices and tables
 ==================
 
