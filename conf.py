@@ -30,7 +30,7 @@ html_logo = 'images/elogo1.png'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['nbsphinx'
+extensions = ['nbsphinx',
 ]
 nbsphinx_execute = 'never'
 

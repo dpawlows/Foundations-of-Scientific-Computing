@@ -139,7 +139,12 @@ to change*
   lessons/L6/functions
   lessons/L6/userdefined
 
-  
+.. toctree::
+  :maxdepth: 2
+  :caption: Lesson 7
+
+  lessons/L7/overview
+  lessons/L7/matplotlib
 
 Indices and tables
 ==================
