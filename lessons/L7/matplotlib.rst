@@ -62,7 +62,7 @@ graphics, you will have to learn to control these objects and their
 properties. All that said, because the action of creating a ``Figure``
 with an ``Axis`` and a ``Line`` (or scatter or contour, etc) is such a common task,
 Matplotlib uses several shortcuts to make all this happen
- without requiring you to do it explicitly. For
+without requiring you to do it explicitly. For
 example, if you use the ``pyplot.plot()`` function to
 plot a line, a ``Figure`` and ``Axis`` will be created for you
 automatically behind the scenes. This is nice because it
@@ -78,12 +78,12 @@ Matplotlib docs
 
 In the next few lessons we will only scratch the surface of the
 capabilities of Matplotlib. As typical, if you want to learn more
-there is expansive documentation available online at `https://matplotlib.org/index.html`_
+there is expansive documentation available online at `<https://matplotlib.org/index.html>`_
 complete with many, many examples. One of the best ways to figure
 out how to make a particular plot using Matplotlib is to find
 an example online and start from there. The Matplotlib developers
 know this and thus have created a beautiful gallery that has
-all of these examples in one place: `https://matplotlib.org/gallery.html`_.
+all of these examples in one place: `<https://matplotlib.org/gallery.html>`_.
 Be sure to visit the gallery to get a glimpse of the many different
 things you can do with this powerful library and click on
 one or more of the examples to see the code used to create it.
