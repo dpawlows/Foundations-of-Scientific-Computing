@@ -145,6 +145,7 @@ to change*
 
   lessons/L7/overview
   lessons/L7/matplotlib
+  lessons/L7/pyplot
 
 Indices and tables
 ==================
