@@ -152,10 +152,10 @@ to change*
   :maxdepth: 2
   :caption: Lesson 8
 
-  lessons/L7/overview
-  lessons/L7/numpy
-  lessons/L7/plotting
-  lessons/L7/seventh
+  lessons/L8/overview
+  lessons/L8/numpy
+  lessons/L8/plotting
+  lessons/L8/seventh
 
 Indices and tables
 ==================
