@@ -148,6 +148,15 @@ to change*
   lessons/L7/pyplot
   lessons/L7/sixth
 
+.. toctree::
+  :maxdepth: 2
+  :caption: Lesson 8
+
+  lessons/L7/overview
+  lessons/L7/numpy
+  lessons/L7/plotting
+  lessons/L7/seventh
+
 Indices and tables
 ==================
 
