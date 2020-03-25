@@ -22,8 +22,6 @@ Part 1- GitHub
    course. If you create *your own* repositories, they will be
    publicly visible.
 4. Finish the other steps as appropriate.
-.. 5. Log into our GitHub classroom by going to
-..    `<https://classroom.github.com/classrooms/59317494-foundationsofcomputationalphysics2020>`_
 5. Once you have a GitHub account, post your GitHub username to the
    appropriate discussion on the Canvas shell for this course.
 

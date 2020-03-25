@@ -22,7 +22,7 @@ Learning Goals
 After this week, you should be able to
 
   - use a reference to quickly create a variety of plot types
-  including log plots, histograms, scatter plots and quiver plots.
+    including log plots, histograms, scatter plots and quiver plots.
   - add latex math to labels and legends on your plots.
   - understand how to add subplots on a figure.
   - create amazing, glorious, plots in XKCD style.
