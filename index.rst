@@ -161,10 +161,10 @@ to change*
   :maxdepth: 2
   :caption: Lesson 9
 
-  lessons/L8/overview
-  lessons/L8/other
-  lessons/L8/cool
-  lessons/L8/eighth
+  lessons/L9/overview
+  lessons/L9/other
+  lessons/L9/cool
+  lessons/L9/eighth
 
 Indices and tables
 ==================
