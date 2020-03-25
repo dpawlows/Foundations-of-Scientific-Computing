@@ -157,6 +157,15 @@ to change*
   lessons/L8/plotting
   lessons/L8/seventh
 
+.. toctree::
+  :maxdepth: 2
+  :caption: Lesson 9
+
+  lessons/L8/overview
+  lessons/L8/other
+  lessons/L8/cool
+  lessons/L8/eighth
+
 Indices and tables
 ==================
 
