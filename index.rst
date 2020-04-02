@@ -166,6 +166,16 @@ to change*
   lessons/L9/cool
   lessons/L9/eighth
 
+.. toctree::
+  :maxdepth: 2
+  :caption: Lesson 10
+
+  lessons/L9/overview
+  lessons/L9/pandas
+  lessons/L9/dataframe
+  .. lessons/L9/ninth
+
+
 Indices and tables
 ==================
 
