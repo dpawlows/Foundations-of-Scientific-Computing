@@ -170,9 +170,9 @@ to change*
   :maxdepth: 2
   :caption: Lesson 10
 
-  lessons/L9/overview
-  lessons/L9/pandas
-  lessons/L9/dataframe
+  lessons/L10/overview
+  lessons/L10/pandas
+  lessons/L10/dataframe
   .. lessons/L9/ninth
 
 
