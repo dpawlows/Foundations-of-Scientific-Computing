@@ -173,7 +173,7 @@ to change*
   lessons/L10/overview
   lessons/L10/pandas
   lessons/L10/dataframe
-  .. lessons/L9/ninth
+  lessons/L10/ninth
 
 
 Indices and tables
