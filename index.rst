@@ -17,12 +17,12 @@ The goal of this course is not to make you expert computer programmers in one se
 Course topics by week
 ---------------------
 
-Materials will be divided into weekly lessons which will
+Materials will be divided into lessons which will
 be available here every Wednesday morning with the following
 schedule:
 
 +-----------+--------------------------------+
-| Week      | Content                        |
+| Lesson    | Content                        |
 +===========+================================+
 | 1         | Introduction to Python;        |
 |           | The Anaconda Distribution      |
@@ -55,11 +55,8 @@ schedule:
 | 10        | Data processing;               |
 |           | Intro to Pandas                |
 +-----------+--------------------------------+
-| 11        | More Pandas                    |
-+-----------+--------------------------------+
-| 12        | Basic Data Analysis            |
-+-----------+--------------------------------+
-| 13        | Data Analysis 2                |
+| 11        | More Pandas;                   |
+|           | Basic Data Analysis            |
 +-----------+--------------------------------+
 | 14        | Animations                     |
 +-----------+--------------------------------+
