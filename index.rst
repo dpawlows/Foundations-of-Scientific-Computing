@@ -176,9 +176,9 @@ to change*
   :maxdepth: 2
   :caption: Lesson 11
 
-  lessons/L10/overview
-  lessons/L10/morepandas
-  lessons/L10/tenth
+  lessons/L11/overview
+  lessons/L11/morepandas
+  lessons/L11/tenth
 
 
 Indices and tables
