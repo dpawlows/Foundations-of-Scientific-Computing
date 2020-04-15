@@ -172,6 +172,14 @@ to change*
   lessons/L10/dataframe
   lessons/L10/ninth
 
+.. toctree::
+  :maxdepth: 2
+  :caption: Lesson 11
+
+  lessons/L10/overview
+  lessons/L10/morepandas
+  lessons/L10/tenth
+
 
 Indices and tables
 ==================
