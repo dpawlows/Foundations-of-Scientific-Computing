@@ -58,7 +58,7 @@ schedule:
 | 11        | More Pandas;                   |
 |           | Basic Data Analysis            |
 +-----------+--------------------------------+
-| 14        | Animations                     |
+| 12        | Animations                     |
 +-----------+--------------------------------+
 
 Contents
