@@ -8,36 +8,40 @@ install Python and different Python packages onto your own computer. While it is
 languages for large-scale data processing and scientific computing. Anaconda combines a basic python distribution with many packages that are commonly used to do science. This makes life a lot easier for us, the users, in the
 long run.
 
-Install Python on Windows
--------------------------
+Downloading Anaconda
+--------------------
 
-Following steps should work on all Windows 7 and 10 computers.
+To download the installer, head to the
+`Anaconda Individual Edition page <https://www.anaconda.com/products/individual>`_.
+Once there, click the **Download** button to be shown the different
+installer options.
 
-`Download Anaconda installer (64 bit) <https://repo.anaconda.com/archive/Anaconda3-2019.10-Windows-x86_64.exe>`_ for Windows.
+.. figure:: images/anaconda_dl.png
+    :width: 600px
+    :align: center
+    :alt: Anaconda Installer Options
+
+    Anaconda Installer Options.  You probably want the graphical option, but you do you.
+
+The Installer that you select will depend on your operating system and
+system architecture. If you are unsure, most systems use 64-bit these
+days.
 
 Install Anaconda to your computer by double clicking the installer and install it into a directory you want (you will need admin privileges).
 If promped, install it to **all users** and use default settings.
 
-Test that Anaconda´s package manager called ``conda`` works by
+Testing the install: Windows
+----------------------------
+
+Test that Anaconda´s *package manager* called ``conda`` works by
 opening a command prompt as a admin user (http://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1/)
 and running the command ``conda --version``. If the command returns a version number of conda (e.g. ``conda 4.5.9``) everything is working correctly.
 
 
-Install Python on macOS
------------------------
+Testing the install: Mac
+------------------------
 
-OSX users can visit `the Anaconda downloads page <https://www.anaconda.com/distribution/#download-section>`__ and click to download the latest 64-Bit Graphical Installer for the Python 3 version of Anaconda.
-
-.. figure:: images/anaconda_osx.png
-    :width: 300px
-    :align: center
-    :alt: Downloading the latest Anaconda for Mac
-
-    You probably want the graphical option, but you do you.
-
-Run the installer and follow the prompts to install Anaconda using the default options.
-
-Then, open up the Terminal application and enter ``conda --version`` to
+On a Mac, open up the Terminal application (Applications - Utilities - Terminal) and enter ``conda --version`` to
 verify a correct installation.
 
 .. note:: The ``conda`` command in the Windows Command Prompt or
