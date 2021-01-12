@@ -143,7 +143,7 @@ to change*
   lessons/L7/overview
   lessons/L7/matplotlib
   lessons/L7/pyplot
-  lessons/L7/sixth
+  .. lessons/L7/seventh
 
 .. toctree::
   :maxdepth: 2
@@ -152,7 +152,7 @@ to change*
   lessons/L8/overview
   lessons/L8/numpy
   lessons/L8/plotting
-  lessons/L8/seventh
+  .. lessons/L8/eighth
 
 .. toctree::
   :maxdepth: 2
@@ -161,7 +161,7 @@ to change*
   lessons/L9/overview
   lessons/L9/other
   lessons/L9/cool
-  lessons/L9/eighth
+  .. lessons/L9/ninth
 
 .. toctree::
   :maxdepth: 2
@@ -170,7 +170,7 @@ to change*
   lessons/L10/overview
   lessons/L10/pandas
   lessons/L10/dataframe
-  lessons/L10/ninth
+  .. lessons/L10/tenth
 
 .. toctree::
   :maxdepth: 2
@@ -178,7 +178,7 @@ to change*
 
   lessons/L11/overview
   lessons/L11/morepandas
-  lessons/L11/tenth
+  .. lessons/L11/eleventh
 
 
 Indices and tables
