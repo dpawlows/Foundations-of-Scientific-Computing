@@ -5,7 +5,7 @@ This week, instead of downloading the files
 that you need from GitHub, you will clone the
 repository that is created when you accept the assignment.
 To do that, first accept the assignment by going to
-`<https://classroom.github.com/a/Jg6oQnNq>`_.
+`<https://classroom.github.com/a/4CQ9vIJq>`_.
 
 Once you've accepted the assignment, click on "Clone or Download"
 button and copy the URL to your GitHub repository. Next,
