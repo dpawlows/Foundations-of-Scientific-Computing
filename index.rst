@@ -135,6 +135,9 @@ to change*
   lessons/L6/overview
   lessons/L6/functions
   lessons/L6/userdefined
+  lessons/L6/sixth
+
+
 
 .. toctree::
   :maxdepth: 2
