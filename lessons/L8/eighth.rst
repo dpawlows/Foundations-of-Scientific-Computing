@@ -1,4 +1,4 @@
 Exercise 07
 ===========
 
-You can access exercise 7 here: `<https://classroom.github.com/a/ZEbUqCVq>`_
+You can access exercise 8 here: `<https://classroom.github.com/a/ZEbUqCVq>`_
