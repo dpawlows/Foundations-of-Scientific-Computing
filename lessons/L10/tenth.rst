@@ -1,4 +1,4 @@
-Exercise 09
+Exercise 10
 ===========
 
-You can access exercise 9 here: `<https://classroom.github.com/a/QTAvJNWs>`_
+You can access exercise 10 here: `<https://classroom.github.com/a/X1jjc2Jx>`_

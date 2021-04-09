@@ -173,7 +173,7 @@ to change*
   lessons/L10/overview
   lessons/L10/pandas
   lessons/L10/dataframe
-  .. lessons/L10/tenth
+  lessons/L10/tenth
 
 .. toctree::
   :maxdepth: 2
