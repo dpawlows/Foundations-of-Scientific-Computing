@@ -181,7 +181,7 @@ to change*
 
   lessons/L11/overview
   lessons/L11/morepandas
-  .. lessons/L11/eleventh
+  lessons/L11/eleventh
 
 
 Indices and tables
