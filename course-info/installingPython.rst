@@ -13,8 +13,7 @@ Downloading Anaconda
 
 To download the installer, head to the
 `Anaconda Individual Edition page <https://www.anaconda.com/products/individual>`_.
-Once there, click the **Download** button to be shown the different
-installer options.
+Once there, scroll to the bottom of the page to see the download options.
 
 .. figure:: images/anaconda_dl.png
     :width: 600px
@@ -25,7 +24,7 @@ installer options.
 
 The Installer that you select will depend on your operating system and
 system architecture. If you are unsure, most systems use 64-bit these
-days.
+days. Also, Anaconda is shipping with Python version 3.9 these days.
 
 Install Anaconda to your computer by double clicking the installer and install it into a directory you want (you will need admin privileges).
 If promped, install it to **all users** and use default settings.
