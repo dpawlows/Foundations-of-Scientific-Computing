@@ -14,9 +14,8 @@ Part 1- GitHub
       :align: center
       :alt: github
 
-2. Once there, enter a username, your email address, and a password
-   and click **Sign up for GitHub**.
-3. When you are prompted to select a plan choose the free option.
+2. Once there, click **Sign up** in the upper right corner and follow the instructions.
+3. Choose the free option when you are prompted to select a plan.
    You will get access to private repositories as part of
    the exercises in this
    course. If you create *your own* repositories, they will be
@@ -29,7 +28,7 @@ Part 2- Basic Python
 --------------------
 
 1. Now that you have a GitHub account, head to
-`<https://classroom.github.com/a/t8PCMHa6>`_ to get access to the
+`<https://classroom.github.com/a/HD5pDExA>`_ to get access to the
 rest of the assignment. When you accept the assignment, a private
 GitHub repository will be created for you. You can then follow the
 instructions in the repository to complete
