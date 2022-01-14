@@ -164,6 +164,11 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
   For Windows users- in the instructions, you are told to "Open Git Bash". Instead, you should
   use the **Terminal** like you did above when installing git.
 
+  When following the linked instructions, on the page called "Generate new SSH key",
+  you should ignore the section titled "Generating a new SSH key for a hardware security key".
+  Also, when generating a SSH key, you will be asked for a passphrase. It is (somewhat) acceptable
+  to leave your passphrase as blank. As long as no one else gets your private key!
+
 I fully expect to work with many, or all, of you individually to help
 troubleshoot, so please don't get frustrated by this process and reach out
 to me for help if you get stuck!
