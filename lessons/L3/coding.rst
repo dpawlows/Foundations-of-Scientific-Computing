@@ -34,12 +34,12 @@ tracking changes made to files in a simple way,
 without necessitating additional software to be installed
 to each of your projects. Git handles all this by
 essentially taking a snapshot of your entire project
-each time you commit a change. In this way, git commits (each
+each time you commit a change. In this way, a git "commit" (an
 individual snapshot) acts
 kind of like a miniature file system. This means that
 there are some really useful tools that make developing
 software very efficient and safe, making it
-difficult to destroy code.
+difficult to destroy or lose code.
 
 If you have completed some of the previous exercises
 in this course, you have used git without really
@@ -51,8 +51,8 @@ Installing git
 ^^^^^^^^^^^^^^
 
 There are several ways to install git, but these instructions
-will do so using the Anaconda Navigator. So, that
-up as you normally would, but don't start a Spyder
+will do so using the Anaconda Navigator. So, start that
+up as you normally would, but **don't** start a Spyder
 session. Instead, once the Navigator is open,
 launch a JupyterLab session. Once you click the
 Launch button, you might be prompted to choose
@@ -68,7 +68,7 @@ Choose your favorite web browser.
 
 We will talk more about using JupyterLab in a future
 lesson, but here we will use it to access
-the Terminal. You should see the terminal icon
+the **Terminal**. You should see the Terminal icon
 in your JupyterLab startup under the "other" heading.
 If not, you can click on ``file`` then ``new`` then ``Terminal``.
 
@@ -82,7 +82,11 @@ If not, you can click on ``file`` then ``new`` then ``Terminal``.
     something like "using Powershell".
 
 This will start a terminal session within JupyterLab
-itself. The terminal will behave differently
+itself. We will use Terminal through out this
+lesson, as well as in future lessons,
+so remember how to access this application.
+
+The terminal will behave differently
 depending if you are on a Windows computer or a Mac,
 but the command that we will use to install
 git is the same regardless. In the terminal enter
@@ -93,7 +97,7 @@ the following command:
   conda install -c anaconda git
 
 You will probably be told that various things need updating,
-and then prompted be to enter whether to proceed or not.
+and then prompted to enter whether to proceed or not.
 Enter 'y' and git (and some other updates) will
 be installed.
 
@@ -113,6 +117,69 @@ In this course, we will use git to
 
 We will do these things by entering specific commands
 in the terminal.
+
+But first! A point of clarification: The entire purpose of git
+is to handle keeping track of your code's history. Every time you make a **commit**
+the code as it exists at that point will be saved. This means that you never have to
+save multiple versions of your code using different filenames: e.g. mycode_v1.py,
+mycode_v2.py, mycode_v2a.py, etc. If you are at a point that you made changes to your
+code and you want to make sure they are tracked, you simply need to
+make a commit following the instructions below.
+
+Now let's learn the git basics.
+
+Linking your computer to GitHub
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Recently, GitHub changed the way that you can access your remote repositories. They
+now require the use of something called an **SSH Key** to allow uploading of
+your commits directly from your computer to your remote repo. So, we need to set
+that up.
+
+In short, an SSH Key is a more secure replacement for a traditional username and password.
+On your local computer, you can create an ssh key pair. One of the pairs is
+called a private key, which is something that you keep on your local computer and
+**never, ever** share with anyone else, or any other computer. The other
+part of the pair is called the public key. This can be shared with anyone, and in
+this case, GitHub.
+
+The way it works is this. The GitHub will have your public key, which includes
+information about your local computer, so that when you attempt to push
+code to GitHub from that computer, GitHub will recognize it and present it
+with your public key. Your public key is an encrypted message that can only
+be unencrypted by someone that has the corresponding private key. When you
+send code to GitHub, your computer will decrypt the public key and
+show GitHub the result, at which point GitHub will more or less say "yes, you are the
+person (computer) that is allowed access to this account on GitHub. Proceed..."
+
+To summarize, the steps that you need to complete are:
+
+1. Create an ssh key pair on your local computer.
+2. Share you ssh **public** key with GitHub.
+
+The process for doing this is pretty simple.... if you know what you are doing.
+As a starting point, see if you can follow the instructions here:
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+
+.. note::
+  For Windows users- in the instructions, you are told to "Open Git Bash". Instead, you should
+  use the **Terminal** like you did above when installing git.
+
+I fully expect to work with many, or all, of you individually to help
+troubleshoot, so please don't get frustrated by this process and reach out
+to me for help if you get stuck!
+
+Once you have an SSH key installed, you should see it in the list on GitHub.
+
+.. figure:: images/sshkeys.png
+    :width: 600px
+    :align: center
+    :alt: ssh keys
+
+    I currently have 4 public keys, which correspond to 4 different computers
+    that can access my GitHub account.
+
+.. warning::
+  Do not proceed until you are sure you have uploaded your public key to GitHub!
 
 git clone
 ^^^^^^^^^
@@ -144,7 +211,7 @@ repository there.
     https://github.com/emuphysics/exercise02.git
 
 To get the link to the remote repository, click
-on the 'Clone or Download' button. Copy that URL and
+on the **'Code'** button. Copy that URL and
 paste it in the terminal as part of the ``git clone``
 command. Hit enter and enter your GitHub credentials
 if you are prompted for them.
