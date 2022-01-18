@@ -10,4 +10,4 @@ link below to create your own repository and
 get access to the assignment.
 
 GitHub Classroom link:
-`<https://classroom.github.com/a/aqpsr8Nt>`_
+`<https://classroom.github.com/a/pdrbD6Vf>`_
