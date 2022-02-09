@@ -203,7 +203,7 @@ see how all of this works. To do that, in the terminal enter:
   git clone link_to_remote_repository
 
 where you need to replace "link_ro_remote_repository"
-with the actual web address. You can find this by going to
+with the actual address of your remote repo. You can find this by going to
 the GitHub in the browser and navigating to your
 repository there.
 
@@ -216,7 +216,8 @@ repository there.
     https://github.com/emuphysics/exercise02.git
 
 To get the link to the remote repository, click
-on the **'Code'** button. Copy that URL and
+on the **'Code'** button. Make sure **SSH** is selected
+and copy that address (should start with git@github.com:...) and
 paste it in the terminal as part of the ``git clone``
 command. Hit enter and enter your GitHub credentials
 if you are prompted for them.
@@ -225,16 +226,43 @@ This should result in a clone of your remote repository
 on your local computer that is located in a directory
 with the same name as your repository.
 
-.. note:: When you clone your remote repo, it will be
-          cloned to the current working directory on your local machine: the directory that you were
-          in when you entered the clone command. If you
-          didn't change directories, your cwd is
-          probably your "home" directory on that computer.
-          (something like /Users/<username>/)
-          You can change directories in the
-          terminal by using the
-          ``cd directoryname`` command, and then clone
-          to that directory if you want.
+.. _working_directory:
+
+Working directory
+^^^^^^^^^^^^^^^^^
+
+When you clone your remote repo, it will be
+cloned to the current working directory (cwd) on your local machine: the directory that you were
+in when you entered the clone command. If you
+didn't change directories, your cwd is
+probably your "home" directory on that computer
+(something like /Users/<username>/).
+If you want to stay organized, you can change directories in the
+terminal by using the
+``cd directoryname`` command, and then clone
+to that directory if you want. For example, I might have a
+"Classes" folder in my home directory, and then a "Phy280" folder
+inside that one where I keep all of my assignments. So, I would
+enter
+
+::
+
+  cd Classes/Phy280
+
+in the terminal to change my cwd to that directory.
+
+Once you clone your repo to your local machine, you will then
+need to change directories to work on your project, execute git
+commands, etc. If the name of your project is "exercise03_dpawlows", then you
+would enter
+
+::
+
+  cd exercise03_dpawlows
+
+in the terminal to set that directory as your cwd. If you are not
+in the cwd that corresponds to your local repository, git will
+be very confused and the commands below will not work.
 
 .. _git_workflow:
 
