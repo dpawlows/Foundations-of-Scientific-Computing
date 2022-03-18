@@ -146,6 +146,7 @@ to change*
   lessons/L7/overview
   lessons/L7/matplotlib
   lessons/L7/pyplot
+  lessons/L7/coding
   lessons/L7/seventh
 
 .. toctree::
