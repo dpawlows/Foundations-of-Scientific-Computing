@@ -88,7 +88,7 @@ to change*
     lessons/L1/anaconda-intro
     lessons/L1/first
     lessons/L1/coding
-    .. lessons/L1/exercise1
+    lessons/L1/exercise1
 
 
 .. toctree::
