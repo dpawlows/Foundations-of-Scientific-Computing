@@ -47,44 +47,56 @@ doing anything other than pressing an upload button or
 two. Now we will learn to use git as part of
 our normal workflow as part of working with Anaconda.
 
-Installing git
+Installation
+^^^^^^^^^^^^
+
+The computer that you are working on will determine how you install git. If you are 
+on Windows, please open the Powershell program. On Mac, open the Terminal
+program. Both to these programs give you access to a 
+`Terminal Emulator <https://en.wikipedia.org/wiki/Terminal_emulator>`_, 
+which is a way to interact with your computer via the keyboard.
+
+
+
+.. Installation using Anaconda
+.. ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. up as you normally would, but **don't** start a Spyder
+.. session. Instead, once the Navigator is open,
+.. launch a JupyterLab session. Once you click the
+.. Launch button, you might be prompted to choose
+.. a program with which to start a JupyerLab session.
+.. Choose your favorite web browser.
+
+.. .. figure:: images/jupyterlab.png
+..     :width: 600px
+..     :align: center
+..     :alt: jupyter lab session
+
+..     A JupyterLab session
+
+.. We will talk more about using JupyterLab in a future
+.. lesson, but here we will use it to access
+.. the **Terminal**. You should see the Terminal icon
+.. in your JupyterLab startup under the "other" heading.
+.. If not, you can click on ``file`` then ``new`` then ``Terminal``.
+
+.. .. figure:: images/terminal.png
+..     :width: 600px
+..     :align: center
+..     :alt: terminal
+
+..     I use a mac, so my terminal might look a little
+..     different. On Windows, it will probably say
+..     something like "using Powershell".
+
+.. This will start a terminal session within JupyterLab
+.. itself. We will use Terminal through out this
+.. lesson, as well as in future lessons,
+.. so remember how to access this application.
+
+Installing Git
 ^^^^^^^^^^^^^^
-
-There are several ways to install git, but these instructions
-will do so using the Anaconda Navigator. So, start that
-up as you normally would, but **don't** start a Spyder
-session. Instead, once the Navigator is open,
-launch a JupyterLab session. Once you click the
-Launch button, you might be prompted to choose
-a program with which to start a JupyerLab session.
-Choose your favorite web browser.
-
-.. figure:: images/jupyterlab.png
-    :width: 600px
-    :align: center
-    :alt: jupyter lab session
-
-    A JupyterLab session
-
-We will talk more about using JupyterLab in a future
-lesson, but here we will use it to access
-the **Terminal**. You should see the Terminal icon
-in your JupyterLab startup under the "other" heading.
-If not, you can click on ``file`` then ``new`` then ``Terminal``.
-
-.. figure:: images/terminal.png
-    :width: 600px
-    :align: center
-    :alt: terminal
-
-    I use a mac, so my terminal might look a little
-    different. On Windows, it will probably say
-    something like "using Powershell".
-
-This will start a terminal session within JupyterLab
-itself. We will use Terminal through out this
-lesson, as well as in future lessons,
-so remember how to access this application.
 
 The terminal will behave differently
 depending if you are on a Windows computer or a Mac,
@@ -116,7 +128,7 @@ In this course, we will use git to
    (and by me).
 
 We will do these things by entering specific commands
-in the terminal.
+in the terminal (via Powershell on Windows or Terminal on Mac).
 
 But first! A point of clarification: The entire purpose of git
 is to handle keeping track of your code's history. Every time you make a **commit**
