@@ -47,53 +47,55 @@ doing anything other than pressing an upload button or
 two. Now we will learn to use git as part of
 our normal workflow as part of working with Anaconda.
 
-Installation
-^^^^^^^^^^^^
+.. Installation
+.. ^^^^^^^^^^^^
 
-The computer that you are working on will determine how you install git. If you are 
-on Windows, please open the Powershell program. On Mac, open the Terminal
-program. Both to these programs give you access to a 
-`Terminal Emulator <https://en.wikipedia.org/wiki/Terminal_emulator>`_, 
-which is a way to interact with your computer via the keyboard.
+.. The computer that you are working on will determine how you install git. If you are 
+.. on Windows, please open the `Powershell program <https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.3>`_.
+.. (this is an application that is already installed on your computer).
+.. On Mac, open the `Terminal <https://en.wikipedia.org/wiki/Terminal_(macOS)>`_
+.. program. Both to these programs give you access to a 
+.. `Terminal Emulator <https://en.wikipedia.org/wiki/Terminal_emulator>`_, 
+.. which is a way to interact with your computer via the keyboard.
 
 
 
-.. Installation using Anaconda
-.. ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Installation using Anaconda
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. up as you normally would, but **don't** start a Spyder
-.. session. Instead, once the Navigator is open,
-.. launch a JupyterLab session. Once you click the
-.. Launch button, you might be prompted to choose
-.. a program with which to start a JupyerLab session.
-.. Choose your favorite web browser.
+So, start Anaconda up as you normally would, but **don't** start a Spyder
+session. Instead, once the Navigator is open,
+launch a JupyterLab session. Once you click the
+Launch button, you might be prompted to choose
+a program with which to start a JupyerLab session.
+Choose your favorite web browser.
 
-.. .. figure:: images/jupyterlab.png
-..     :width: 600px
-..     :align: center
-..     :alt: jupyter lab session
+.. figure:: images/jupyterlab.png
+    :width: 600px
+    :align: center
+    :alt: jupyter lab session
 
-..     A JupyterLab session
+    A JupyterLab session
 
-.. We will talk more about using JupyterLab in a future
-.. lesson, but here we will use it to access
-.. the **Terminal**. You should see the Terminal icon
-.. in your JupyterLab startup under the "other" heading.
-.. If not, you can click on ``file`` then ``new`` then ``Terminal``.
+We will talk more about using JupyterLab in a future
+lesson, but here we will use it to access
+the **Terminal**. You should see the Terminal icon
+in your JupyterLab startup under the "other" heading.
+If not, you can click on ``file`` then ``new`` then ``Terminal``.
 
-.. .. figure:: images/terminal.png
-..     :width: 600px
-..     :align: center
-..     :alt: terminal
+.. figure:: images/terminal.png
+    :width: 600px
+    :align: center
+    :alt: terminal
 
-..     I use a mac, so my terminal might look a little
-..     different. On Windows, it will probably say
-..     something like "using Powershell".
+    I use a mac, so my terminal might look a little
+    different. On Windows, it will probably say
+    something like "using Powershell".
 
-.. This will start a terminal session within JupyterLab
-.. itself. We will use Terminal through out this
-.. lesson, as well as in future lessons,
-.. so remember how to access this application.
+This will start a terminal session within JupyterLab
+itself. We will use Terminal through out this
+lesson, as well as in future lessons,
+so remember how to access this application.
 
 Installing Git
 ^^^^^^^^^^^^^^
@@ -112,6 +114,16 @@ You will probably be told that various things need updating,
 and then prompted to enter whether to proceed or not.
 Enter 'y' and git (and some other updates) will
 be installed.
+
+.. warning::
+  If you are having issues installing git
+  ..  or working with the Powershell or the Terminal 
+  (or anything else), please let me know so we can talk about it and fix the issue. 
+  I would like you to use git as outlined in this lesson for the rest of the course, so 
+  let's make sure things are setup correctly now!  
+  .. There is a lot 
+  .. you can do with a terminal emulator but we aren't covering any of that in this course (wait until 
+  .. Phy380), but I do want you to use it to work with git and github.
 
 .. _using_git:
 
@@ -196,7 +208,8 @@ Once you have an SSH key installed, you should see it in the list on GitHub.
     that can access my GitHub account.
 
 .. warning::
-  Do not proceed until you are sure you have uploaded your public key to GitHub!
+  Do not proceed until you are sure you have uploaded your public key to GitHub! Again, let's have a 
+  meeting to get everything working!
 
 git clone
 ^^^^^^^^^
