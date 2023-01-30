@@ -60,10 +60,14 @@ our normal workflow as part of working with Anaconda.
 
 
 
-Installation using Anaconda
+Installation using a terminal
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-So, start Anaconda up as you normally would, but **don't** start a Spyder
+**Mac users:** Although it will work, you don't need to start Anaconda to complete the next step. Instead,
+open the Terminal application and skip to :ref:`installingGit`. You can choose to use Mac's own Terminal or 
+Anaconda's. 
+
+First, start Anaconda up as you normally would, but **don't** start a Spyder
 session. Instead, once the Navigator is open,
 launch a JupyterLab session. Once you click the
 Launch button, you might be prompted to choose
@@ -96,6 +100,8 @@ This will start a terminal session within JupyterLab
 itself. We will use Terminal through out this
 lesson, as well as in future lessons,
 so remember how to access this application.
+
+.. _installingGit:
 
 Installing Git
 ^^^^^^^^^^^^^^
