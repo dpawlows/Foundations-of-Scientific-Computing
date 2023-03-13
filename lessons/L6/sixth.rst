@@ -2,4 +2,4 @@
 Exercise 6
 ==========
 
-You can find and accept the assignment here: https://classroom.github.com/a/xKheZXuS
+You can find and accept the assignment here: `<https://classroom.github.com/a/28fNWX-m>`_
