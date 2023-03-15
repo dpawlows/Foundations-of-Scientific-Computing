@@ -117,7 +117,7 @@ to change*
   lessons/L4/overview
   lessons/L4/operators
   lessons/L4/conditionals
-  .. lessons/L4/fourth
+  lessons/L4/fourth
 
 .. toctree::
   :maxdepth: 2
@@ -126,7 +126,7 @@ to change*
   lessons/L5/overview
   lessons/L5/debugging
   lessons/L5/latex
-  .. lessons/L5/fifth
+  lessons/L5/fifth
 
 .. toctree::
   :maxdepth: 2
@@ -135,7 +135,7 @@ to change*
   lessons/L6/overview
   lessons/L6/functions
   lessons/L6/userdefined
-  .. lessons/L6/sixth
+  lessons/L6/sixth
 
 
 
