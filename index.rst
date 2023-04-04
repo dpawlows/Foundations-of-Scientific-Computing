@@ -147,7 +147,7 @@ to change*
   lessons/L7/matplotlib
   lessons/L7/pyplot
   lessons/L7/coding
-  .. lessons/L7/seventh
+  lessons/L7/seventh
 
 .. toctree::
   :maxdepth: 2
@@ -156,7 +156,7 @@ to change*
   lessons/L8/overview
   lessons/L8/numpy
   lessons/L8/plotting
-  .. lessons/L8/eighth
+  lessons/L8/eighth
 
 .. toctree::
   :maxdepth: 2
