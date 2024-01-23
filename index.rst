@@ -99,7 +99,7 @@ to change*
   lessons/L2/basics
   lessons/L2/lists
   lessons/L2/coding
-  .. lessons/L2/second
+  lessons/L2/second
 
 .. toctree::
   :maxdepth: 2
