@@ -147,7 +147,7 @@ to change*
   lessons/L7/matplotlib
   lessons/L7/pyplot
   lessons/L7/coding
-  .. lessons/L7/seventh
+  lessons/L7/seventh
 
 .. toctree::
   :maxdepth: 2
