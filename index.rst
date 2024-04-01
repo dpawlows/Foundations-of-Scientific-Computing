@@ -165,7 +165,7 @@ to change*
   lessons/L9/overview
   lessons/L9/other
   lessons/L9/cool
-  .. lessons/L9/ninth
+  lessons/L9/ninth
 
 .. toctree::
   :maxdepth: 2
