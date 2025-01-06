@@ -4,7 +4,7 @@ Installing Python
 
 **In order to complete the tutorials and exercises, you should download a python distribution on your own computer.**  While the Mac computers in the campus computer labs have python installed on them, these versions may not have some of the packages that we will use in this course. The purpose of this page is to help you to
 install Python and different Python packages onto your own computer. While it is possible to install Python from the Python homepage https://www.python.org/,
-**we highly recommend using** `Anaconda <https://www.anaconda.com/download/>`_ which is an open source distribution of the Python and R programming
+**we highly recommend using** `Anaconda <https://www.anaconda.com/download>`_ which is an open source distribution of the Python and R programming
 languages for large-scale data processing and scientific computing. Anaconda combines a basic python distribution with many packages that are commonly used to do science. This makes life a lot easier for us, the users, in the
 long run.
 
@@ -12,19 +12,18 @@ Downloading Anaconda
 --------------------
 
 To download the installer, head to the
-`Anaconda Individual Edition page <https://www.anaconda.com/products/individual>`_.
-Once there, scroll to the bottom of the page to see the download options.
+`Anaconda Downloads page <https://www.anaconda.com/download>`_.
+Once there, you have to enter your email and have a download link sent to you. Note that you do not have to check the "agree to receive communication" box.
 
 .. figure:: images/anaconda_dl.png
     :width: 600px
     :align: center
-    :alt: Anaconda Installer Options
+    :alt: Anaconda download landing
 
-    Anaconda Installer Options.  You probably want the graphical option, but you do you.
+    Anaconda download landing page.
 
-The Installer that you select will depend on your operating system and
-system architecture. If you are unsure, most systems use 64-bit these
-days. Also, Anaconda is shipping with Python version 3.9 these days.
+The link that is sent to your email will take you to the downloads page. The Installer that you select will depend on your operating system and
+system architecture, which Anaconda's website should automatically identify and allow you to simply click the green Download button. Anaconda is shipping with Python version 3.12 these days.
 
 Install Anaconda to your computer by double clicking the installer and install it into a directory you want (you will need admin privileges).
 If promped, install it to **all users** and use default settings.
@@ -48,6 +47,11 @@ verify a correct installation.
           packages that
           were not included with the base distribution, though we probably
           won't need to do that in this course.
+
+Issues installing
+-----------------
+
+There are a variety of reasons why testing the installation may not work. So, if you run into an issue, please reach out to me!
 
 Updating
 --------
