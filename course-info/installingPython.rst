@@ -32,8 +32,10 @@ Testing the install: Windows
 ----------------------------
 
 Test that Anaconda´s *package manager* called ``conda`` works by
-opening a command prompt as a admin user (http://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1/)
-and running the command ``conda --version``. If the command returns a version number of conda (e.g. ``conda 4.5.9``) everything is working correctly.
+opening any Windows command prompt program (Command Prompt, Powershell, Anaconda Command Prompt, 
+Anaconda Powershell Prompt should all work!) and running the command ``conda --version``. 
+If the command returns a version number of conda (e.g. ``conda 24.11.0``) 
+everything is working correctly.
 
 
 Testing the install: Mac
@@ -42,8 +44,8 @@ Testing the install: Mac
 On a Mac, open up the Terminal application (Applications - Utilities - Terminal) and enter ``conda --version`` to
 verify a correct installation.
 
-.. note:: The ``conda`` command in the Windows Command Prompt or
-          Mac Terminal can be used to install
+.. note:: The ``conda`` command  
+          can be used to install
           packages that
           were not included with the base distribution, though we probably
           won't need to do that in this course.
