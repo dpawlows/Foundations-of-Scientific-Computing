@@ -11,7 +11,7 @@ from the Start Menu on Windows or from the Finder
 on Mac. Once the Navigator is started, you will see
 something like the image below:
 
-.. figure:: images/navigator.png
+.. figure:: images/navigator_2025.png
     :width: 600px
     :align: center
     :alt: navigator startup screen
@@ -21,7 +21,8 @@ something like the image below:
 where you can choose which tool to work with. JupyterLab
 and Jupyter Notebooks are web based tools for
 integrating Python code with human readable text and
-graphics. We will use these tools in Lesson 2. In this
+graphics. You may use these tools in other classes, or as a way to 
+keep your code and documentation organized. In this
 lesson, we are going to start with an introduction to Spyder.
 
 Spyder
@@ -62,10 +63,13 @@ python code.
 Help
 ^^^^^^^^^^^
 Panel that helps to understand what your
-program is doing, including things like
-showing you which variables have been defined
+program is doing. As part of the Help panel, there is a 
+toolbar that allows you to switch between the "variable explorer", "plots", and 
+"files". 
+These tabs allow you see different things after you run your program:
+the variables you have been defined
 and what they are defined as,
-displaying plots, and files in your current working
+any plots that you've created, and files in your current working
 directory
 
 Console
@@ -102,9 +106,9 @@ and running python code as easy as possible.
 In reality, it isn't necessary to use Spyder
 to do any of these things. Instead, one can
 write and edit code in any text editor (e.g.
-Atom, which is what I use, or Notepad/Textedit (not
+VS Code, which is what I use, or Notepad/Textedit (not
 recommended)), then run the code from the
-Windows Command Prompt or Mac Terminal.
+Windows Powershell Prompt or Mac Terminal.
 In fact when you use Spyder, it is really
 just acting like a wrapper to put all of
 this functionality in one place.
@@ -135,8 +139,8 @@ file temp.py and stored it in a certain
 directory in your filesystem. You can
 tell which directory that is by looking just
 below the toolbar.
-The line that starts with the slash (\) is
-tells us the file path, or just **path** for short.
+The line that starts with the slash (/) in the image below
+tells us the file path (or just **path** for short).
 The path tells me the directory that the
 file is in as well as the name of the file itself.
 So, in this example, the file, temp.py, is in the
@@ -151,7 +155,7 @@ directory
 Note that the path is system dependent. I work
 on a Mac so it will look different if you
 work on a Windows computer. Also, dpawlows
-is my username on my computer. So, that will
+is my username on my computer. So, that will be
 different no matter what.
 
 If I want to run this file, I should
