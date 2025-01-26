@@ -143,7 +143,7 @@ Now let's learn the git basics.
 
 Linking your computer to GitHub
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Recently, GitHub changed the way that you can access your remote repositories. They
+**You only have to do this step once!** Recently, GitHub changed the way that you can access your remote repositories. They
 now require the use of something called an **SSH Key** to allow uploading of
 your commits directly from your computer to your remote repo. So, we need to set
 that up.
@@ -175,7 +175,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 .. note::
   For Windows users- in the instructions, you are told to "Open Git Bash". Instead, you should
-  use the **Terminal** like you did above when installing git.
+  use the **Anaconda Powershell** like you did above when installing git.
 
   When following the linked instructions, on the page called "Generate new SSH key",
   you should ignore the section titled "Generating a new SSH key for a hardware security key".
