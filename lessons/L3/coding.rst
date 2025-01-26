@@ -67,39 +67,22 @@ Installation using a terminal
 open the Terminal application and skip to :ref:`installingGit`. You can choose to use Mac's own Terminal or 
 Anaconda's. 
 
+**Windows users:** There are a couple of different options here depending on how 
+your computer is setup. 
 First, start Anaconda up as you normally would, but **don't** start a Spyder
 session. Instead, once the Navigator is open,
-launch a JupyterLab session. Once you click the
-Launch button, you might be prompted to choose
-a program with which to start a JupyerLab session.
-Choose your favorite web browser.
+you should see an option for the Anaconda Powershell or Powershell Prompt (using the CMD Prompt
+should also work). If you don't see these options, you may need to update Anaconda. Go ahead and open 
+the Powershell Prompt.
 
-.. figure:: images/jupyterlab.png
+.. figure:: images/anaconda_navigator_powershell_launcher.png
     :width: 600px
     :align: center
-    :alt: jupyter lab session
+    :alt: Powershell prompt
 
-    A JupyterLab session
+    The Anaconda Navigator
 
-We will talk more about using JupyterLab in a future
-lesson, but here we will use it to access
-the **Terminal**. You should see the Terminal icon
-in your JupyterLab startup under the "other" heading.
-If not, you can click on ``file`` then ``new`` then ``Terminal``.
-
-.. figure:: images/terminal.png
-    :width: 600px
-    :align: center
-    :alt: terminal
-
-    I use a mac, so my terminal might look a little
-    different. On Windows, it will probably say
-    something like "using Powershell".
-
-This will start a terminal session within JupyterLab
-itself. We will use Terminal through out this
-lesson, as well as in future lessons,
-so remember how to access this application.
+This will start a terminal session which we can use to install and then use git.
 
 .. _installingGit:
 
@@ -128,7 +111,7 @@ be installed.
   I would like you to use git as outlined in this lesson for the rest of the course, so 
   let's make sure things are setup correctly now!  
   .. There is a lot 
-  .. you can do with a terminal emulator but we aren't covering any of that in this course (wait until 
+  .. you can do with a terminal but we aren't covering any of that in this course (wait until 
   .. Phy380), but I do want you to use it to work with git and github.
 
 .. _using_git:
