@@ -8,7 +8,7 @@ that you need from GitHub as you have been doing, you will **clone** the
 repository that is created when you accept the assignment using the terminal. Please 
 learn how to do this! **If you are having trouble, make sure you talk to me.** 
 To start, first accept the assignment by going to
-`<https://classroom.github.com/a/8ZVYEYb5>`_.
+`<https://classroom.github.com/a/mQdsPG02>`_.
 
 Once you've accepted the assignment, click on the "Code"
 button and make sure the "SSH" tab is selected. Then 

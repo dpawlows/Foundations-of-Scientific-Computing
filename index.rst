@@ -108,7 +108,7 @@ to change*
   lessons/L3/overview
   lessons/L3/recursion
   lessons/L3/coding
-  .. lessons/L3/third
+  lessons/L3/third
 
 .. toctree::
   :maxdepth: 2
