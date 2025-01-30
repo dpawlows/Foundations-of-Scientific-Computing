@@ -13,18 +13,25 @@ To start, first accept the assignment by going to
 Once you've accepted the assignment, click on the "Code"
 button and make sure the "SSH" tab is selected. Then 
 copy the link that shows in the text box (for example, mine is 
-git@github.com:emuphysics/exercise03-dpawlows.git). Next,
-use the Terminal, Jupyter Lab, or Windows Powershell to clone the
-repository using the `git clone` command as described in
-:ref:`using_git`.
+git@github.com:emuphysics/exercise03-dpawlows.git). 
 
+Next,
+upen the Terminal or Powershell program. Use the `cd` command to change your current 
+working directory to the one that you use for Phy280 work. For example, I might use 
+something like:
+
+`cd Documents/Phy280/Assignments/`
+
+Finally, clone your github repository using the `git clone` command as described in
+:ref:`using_git`.
 This should result in the creation of a local repository
 on your computer created in the folder in which you executed the clone 
 command. You should follow the instructions
 in the readme to complete the assignment. Then when you
 are finished, use the :ref:`git workflow<git_workflow>` to commit your changes
 locally and push them to your remote repository on GitHub
-where I can access them.
+where I can access them. Again, you need to use the `git` commands while working 
+in the directory that contains your project. 
 
 .. note:: Once you are able to use git properly, 
           If you are ever working on an assignment and you have
