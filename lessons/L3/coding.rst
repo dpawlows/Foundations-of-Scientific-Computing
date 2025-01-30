@@ -102,7 +102,10 @@ the following command:
 You will probably be told that various things need updating,
 and then prompted to enter whether to proceed or not.
 Enter 'y' and git (and some other updates) will
-be installed.
+be installed. 
+
+One common error on Windows that you might see when executing this command is something about **permissions**. If you 
+get this error you may need to run "Anaconda Powershell as an Administrator".
 
 .. warning::
   If you are having issues installing git
@@ -182,6 +185,43 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh
   Also, when generating a SSH key, you will be asked for a passphrase. It is (somewhat) acceptable
   to leave your passphrase as blank. As long as no one else gets your private key!
 
+In short, do add an ssh-key, start up your Terminal or Powershell, then execute the following commands:
+
+::
+
+  cd .ssh/
+  sshkey-gen
+
+follow the instructions to create a key pair. You can use the default naming or change the name as you would like.
+Enter a password for your keypair or don't as you prefer. Once your key pair has been created, execute:
+
+::
+  ls
+  cat "publickeyfile"
+
+.. figure:: images/public_key.png
+    :width: 600px
+    :align: center
+    :alt: A public key
+
+    One of my public keys (id_rsa.pub). Yours may look different!
+
+where "publickeyfile" is the name of your publickey (something like id_rsa.pub or id_ed25519.pub unless you 
+changed the name). The `ls` command is used here to list the contents of the directory that you are 
+working in. 
+
+Finally, copy the text that was produced by the cat command. You will paste that into a form on GitHub. 
+Head to GitHub and click on your profile icon in the upper right corner, then select settings. Select "SSH and GPG Keys"
+from the navigation menu on the left. Then click on the green "Add SSH Key" button. Give your key a title 
+(whatever you want) and paste your public key into the textbox and click "Add SSH key".
+
+.. figure:: images/newssh.png
+    :width: 600px
+    :align: center
+    :alt: adding a new ssh key
+
+    Adding a new ssh key to GitHub
+
 I fully expect to work with many, or all, of you individually to help
 troubleshoot, so please don't get frustrated by this process and reach out
 to me for help if you get stuck!
@@ -200,6 +240,44 @@ Once you have an SSH key installed, you should see it in the list on GitHub.
   Do not proceed until you are sure you have uploaded your public key to GitHub! Again, let's have a 
   meeting to get everything working!
 
+.. _working_directory:
+
+Working directory
+^^^^^^^^^^^^^^^^^
+
+When clone your remote repository from GitHub to your local machine, it will be
+cloned to the current working directory (cwd) on your local machine: the directory that you were
+in when you enter the clone command. If you
+don't change directories, your cwd is
+probably your "home" directory on that computer
+(something like /Users/<username>/).
+If you want to stay organized, you should change directories in the
+terminal by using the
+``cd directoryname`` command, and then clone
+to that directory. For example, I might have a
+"Classes" folder in my home directory, and then a "Phy280" folder
+inside that one where I keep all of my assignments. So, I would
+enter
+
+::
+
+  cd Classes/Phy280/
+
+in the terminal to change my cwd to that directory.
+
+Once you clone your repo to your local machine, you will then
+need to change directories to work on your project, execute git
+commands, etc. If the name of your project is "exercise03_dpawlows", then you
+would enter
+
+::
+
+  cd exercise03_dpawlows/
+
+in the terminal to set that directory as your cwd. If you are not
+in the cwd that corresponds to your local repository, git will
+be very confused and the commands below will not work.
+
 git clone
 ^^^^^^^^^
 When you clone your github repository to your local machine, git will use three "trees" to manage your
@@ -210,7 +288,8 @@ and is a staging area the keeps track of the files that
 you are ready commit to your local repository, but haven't done so yet. The third tree is the *head* and it points at the last commit that you've made.
 
 Let's clone one of your GitHub repositories to
-see how all of this works. To do that, in the terminal enter:
+see how all of this works. To do that, in the terminal, use `cd` to change directories 
+to where you keep your Phy280 projects (for example, cd Documents/Phy280/). Then enter:
 
 ::
 
@@ -240,43 +319,7 @@ This should result in a clone of your remote repository
 on your local computer that is located in a directory
 with the same name as your repository.
 
-.. _working_directory:
 
-Working directory
-^^^^^^^^^^^^^^^^^
-
-When you clone your remote repo, it will be
-cloned to the current working directory (cwd) on your local machine: the directory that you were
-in when you entered the clone command. If you
-didn't change directories, your cwd is
-probably your "home" directory on that computer
-(something like /Users/<username>/).
-If you want to stay organized, you can change directories in the
-terminal by using the
-``cd directoryname`` command, and then clone
-to that directory if you want. For example, I might have a
-"Classes" folder in my home directory, and then a "Phy280" folder
-inside that one where I keep all of my assignments. So, I would
-enter
-
-::
-
-  cd Classes/Phy280
-
-in the terminal to change my cwd to that directory.
-
-Once you clone your repo to your local machine, you will then
-need to change directories to work on your project, execute git
-commands, etc. If the name of your project is "exercise03_dpawlows", then you
-would enter
-
-::
-
-  cd exercise03_dpawlows
-
-in the terminal to set that directory as your cwd. If you are not
-in the cwd that corresponds to your local repository, git will
-be very confused and the commands below will not work.
 
 .. _git_workflow:
 
@@ -376,8 +419,19 @@ not tell you if you've pushed changes to your remote
 repository. You can use ``git diff master origin/master``
 to do that.
 
+
+Summary
+^^^^^^^
+
+Using git and GitHub in the way described in this document may seem like a big pain when you were 
+happily using the "upload" button just last week. I teach this method to you because the git command 
+is powerful and can help you keep track of the evolution of your software in ways that using GitHub alone 
+can't. Once you get used to using the git commands in this way, it really does make syncing your 
+code with GitHub faster and more seemless, and your workflow more efficient in general. This is standard 
+practice in most fields that do software development, including physics and astronomy. 
+
 Issues
-^^^^^^^^
+^^^^^^
 
 Chances are, you will do something, sometime, and
 either your commit or push will not work as expected.
@@ -392,3 +446,6 @@ to give you the secret trick to fixing all git issues.
     :alt: xkcd git
 
     Seriously, do this. [source: xkcd.com]
+
+
+
