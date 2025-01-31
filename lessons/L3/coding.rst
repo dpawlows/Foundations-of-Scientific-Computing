@@ -196,6 +196,7 @@ follow the instructions to create a key pair. You can use the default naming or 
 Enter a password for your keypair or don't as you prefer. Once your key pair has been created, execute:
 
 ::
+  
   ls
   cat "publickeyfile"
 
