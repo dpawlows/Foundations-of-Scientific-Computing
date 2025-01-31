@@ -196,7 +196,7 @@ follow the instructions to create a key pair. You can use the default naming or 
 Enter a password for your keypair or don't as you prefer. Once your key pair has been created, execute:
 
 ::
-  
+
   ls
   cat "publickeyfile"
 
@@ -246,9 +246,10 @@ Once you have an SSH key installed, you should see it in the list on GitHub.
 Working directory
 ^^^^^^^^^^^^^^^^^
 
-When clone your remote repository from GitHub to your local machine, it will be
-cloned to the current working directory (cwd) on your local machine: the directory that you were
-in when you enter the clone command. If you
+When you clone your remote repository from GitHub, it will be
+downloaded to the current working directory (cwd) on your local machine: the 
+directory that you were
+in when you entered the clone command. If you
 don't change directories, your cwd is
 probably your "home" directory on that computer
 (something like /Users/<username>/).
@@ -266,7 +267,8 @@ enter
 
 in the terminal to change my cwd to that directory.
 
-Once you clone your repo to your local machine, you will then
+Once you clone your repo (which you will do in the next step) 
+to your local machine, you will then
 need to change directories to work on your project, execute git
 commands, etc. If the name of your project is "exercise03_dpawlows", then you
 would enter
