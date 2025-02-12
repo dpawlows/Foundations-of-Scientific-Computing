@@ -6,4 +6,4 @@ You can find and accept the assignment here:
 
 Like last week, make sure you continue to use the
 :ref:`git workflow<git_workflow>` to track changes to your
-code and commit to GitHub.
+code and commit to GitHub!
