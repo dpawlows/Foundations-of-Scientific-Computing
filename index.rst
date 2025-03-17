@@ -156,7 +156,7 @@ to change*
   lessons/L8/overview
   lessons/L8/numpy
   lessons/L8/plotting
-  .. lessons/L8/eighth
+  lessons/L8/eighth
 
 .. toctree::
   :maxdepth: 2
