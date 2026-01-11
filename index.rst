@@ -99,7 +99,7 @@ to change*
   lessons/L2/basics
   lessons/L2/lists
   lessons/L2/coding
-  lessons/L2/second
+  .. lessons/L2/second
 
 .. toctree::
   :maxdepth: 2
@@ -108,7 +108,7 @@ to change*
   lessons/L3/overview
   lessons/L3/recursion
   lessons/L3/coding
-  lessons/L3/third
+  .. lessons/L3/third
 
 .. toctree::
   :maxdepth: 2
@@ -117,7 +117,7 @@ to change*
   lessons/L4/overview
   lessons/L4/operators
   lessons/L4/conditionals
-  lessons/L4/fourth
+  .. lessons/L4/fourth
 
 .. toctree::
   :maxdepth: 2
@@ -126,7 +126,7 @@ to change*
   lessons/L5/overview
   lessons/L5/debugging
   lessons/L5/latex
-  lessons/L5/fifth
+  .. lessons/L5/fifth
 
 .. toctree::
   :maxdepth: 2
@@ -135,7 +135,7 @@ to change*
   lessons/L6/overview
   lessons/L6/functions
   lessons/L6/userdefined
-  lessons/L6/sixth
+  .. lessons/L6/sixth
 
 
 
@@ -147,7 +147,7 @@ to change*
   lessons/L7/matplotlib
   lessons/L7/pyplot
   lessons/L7/coding
-  lessons/L7/seventh
+  .. lessons/L7/seventh
 
 .. toctree::
   :maxdepth: 2
@@ -156,7 +156,7 @@ to change*
   lessons/L8/overview
   lessons/L8/numpy
   lessons/L8/plotting
-  lessons/L8/eighth
+  .. lessons/L8/eighth
 
 .. toctree::
   :maxdepth: 2
@@ -165,7 +165,7 @@ to change*
   lessons/L9/overview
   lessons/L9/other
   lessons/L9/cool
-  lessons/L9/ninth
+  .. lessons/L9/ninth
 
 .. toctree::
   :maxdepth: 2
@@ -174,7 +174,7 @@ to change*
   lessons/L10/overview
   lessons/L10/pandas
   lessons/L10/dataframe
-  lessons/L10/tenth
+  .. lessons/L10/tenth
 
 .. toctree::
   :maxdepth: 2
@@ -182,7 +182,7 @@ to change*
 
   lessons/L11/overview
   lessons/L11/morepandas
-  lessons/L11/eleventh
+  .. lessons/L11/eleventh
 
 
 Indices and tables
