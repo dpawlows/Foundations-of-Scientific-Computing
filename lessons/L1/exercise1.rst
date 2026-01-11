@@ -23,7 +23,7 @@ Part 2- Basic Python
 --------------------
 
 1. Now that you have a GitHub account, head to
-`<https://classroom.github.com/a/OMJcurau>`_ to get access to the
+`<https://classroom.github.com/a/MXGThHTL>`_ to get access to the
 rest of the assignment. When you accept the assignment, a private
 GitHub repository will be created for you. You can then follow the
 instructions in the repository to complete
