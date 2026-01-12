@@ -10,10 +10,12 @@ Course materials are freely available.
 Instructor
 ----------
 
-| David Pawlowski       | Ernie Behringer
-| dpawlows@emich.edu    | ebehringe@emich.edu
-| Strong 240D           | Strong 240G
-| 734.487.8644          |
+================== ===================
+David Pawlowski    Ernie Behringer
+dpawlows@emich.edu ebehringe@emich.edu
+Strong 240D        Strong 240G
+734.487.8644       
+================== ===================
 
 Course website
 --------------
