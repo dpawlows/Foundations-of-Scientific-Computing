@@ -1,4 +1,4 @@
 Exercise 10
 ===========
 
-You can access exercise 10 here: `<https://classroom.github.com/a/_4S071Hp>`_
+You can access exercise 10 here: `<https://classroom.github.com/a/e5NAcsZ_>`_

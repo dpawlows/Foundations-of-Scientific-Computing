@@ -1,4 +1,4 @@
 Exercise 7
 ==========
 
-You can find and accept the assignment here: `<https://classroom.github.com/a/PLdpgPk9>`_
+You can find and accept the assignment here: `<https://classroom.github.com/a/4CiRJWVE>`_
